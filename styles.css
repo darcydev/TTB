@@ -166,7 +166,7 @@ header .nav-mobile ul li {
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: #ce0024;
+  background-color: var(--main-brown);
 }
 .hamburger-box {
   width: 40px;
@@ -184,7 +184,7 @@ header .nav-mobile ul li {
 .hamburger-inner::after {
   width: 40px;
   height: 4px;
-  background-color: #d19400;
+  background-color: var(--main-gold);
   border-radius: 4px;
   position: absolute;
   transition-property: transform;
@@ -294,7 +294,8 @@ section.banner p {
   padding-top: 40px;
 }
 .section-timeline .timeline-wrp {
-  margin-top: 65px;
+  margin: 65px auto 0 auto;
+  max-width: 95%;
 }
 
 /* BRIDGES BANNER */
@@ -441,6 +442,12 @@ footer .box-wrp .facebook {
   header .nav-desktop {
     display: none;
   }
+  header .content {
+    padding: 40px;
+  }
+  header .nav-mobile {
+    padding: 40px;
+  }
   header .left .logo-wrp img {
     width: 120px;
   }
@@ -483,7 +490,7 @@ footer .box-wrp .facebook {
   }
   header .nav-mobile ul {
     flex-direction: column;
-    padding: 40px;
+    padding: 0;
   }
   header .nav-mobile ul li {
     margin: 5px 0;
