@@ -115,7 +115,7 @@ header nav ul {
 header nav ul li {
   border-bottom: 3px solid #fff;
   margin: 0 20px;
-  font-size: 18px;
+  font-size: 22px;
 }
 header nav ul li:first-child {
   margin-left: 0;
@@ -526,5 +526,9 @@ footer .box-wrp .facebook {
   }
   footer .box-wrp .txt-wrp span {
     font-size: 16px;
+  }
+  footer .box-wrp .logo-wrp .book {
+    width: 90px;
+    top: -15px;
   }
 }
