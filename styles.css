@@ -339,21 +339,21 @@ section.banner p {
   width: 20px;
 }
 
-/* FOOTER  */
-footer {
+/* Socials  */
+.section-social {
   padding: 120px 0 120px 0;
 }
-footer .content {
+.section-social .content {
   max-width: 1200px;
   width: 90%;
   margin: auto;
 }
-footer .boxes-wrp {
+.section-social .boxes-wrp {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-footer .box-wrp {
+.section-social .box-wrp {
   display: flex;
   align-items: center;
   height: 70px;
@@ -363,28 +363,28 @@ footer .box-wrp {
   margin: 0 10px;
   position: relative;
 }
-footer .box-wrp .txt-wrp {
+.section-social .box-wrp .txt-wrp {
   padding-left: 30px;
 }
-footer .box-wrp .txt-wrp p {
+.section-social .box-wrp .txt-wrp p {
   margin: 0;
   padding: 0;
   font-family: 'Caporal Regular';
   font-size: 25px;
 }
-footer .box-wrp .txt-wrp span {
+.section-social .box-wrp .txt-wrp span {
   color: var(--main-gold);
   font-family: 'Caporal Regular';
   font-size: 20px;
 }
-footer .box-wrp .bg-wrp {
+.section-social .box-wrp .bg-wrp {
   height: 100%;
   width: 80px;
   background: var(--main-gold);
   right: 0;
   position: absolute;
 }
-footer .box-wrp .skew-wrp {
+.section-social .box-wrp .skew-wrp {
   height: 100%;
   background: var(--main-gold);
   margin: 0 40px 0 0;
@@ -393,30 +393,30 @@ footer .box-wrp .skew-wrp {
   display: flex;
   align-items: center;
 }
-footer .box-wrp:nth-child(1) .skew-wrp {
+.section-social .box-wrp:nth-child(1) .skew-wrp {
   justify-content: space-evenly;
 }
-footer .box-wrp:nth-child(2) .skew-wrp {
+.section-social .box-wrp:nth-child(2) .skew-wrp {
   justify-content: space-between;
 }
-footer .box-wrp .book,
+.section-social .box-wrp .book,
 .arrow,
 .facebook {
   transform: skewX(50deg);
 }
-footer .box-wrp .book {
+.section-social .box-wrp .book {
   width: 120px;
   position: absolute;
   top: -32px;
   right: 60px;
 }
-footer .box-wrp .arrow {
+.section-social .box-wrp .arrow {
   width: 28px;
   position: absolute;
   right: -25px;
   top: 25px;
 }
-footer .box-wrp .facebook {
+.section-social .box-wrp .facebook {
   width: 50px;
   position: absolute;
   top: 8px;
@@ -425,13 +425,13 @@ footer .box-wrp .facebook {
 
 /* MEDIA QUERIES */
 @media (max-width: 1300px) {
-  footer {
+  .section-social {
     padding: 0;
   }
-  footer .boxes-wrp {
+  .section-social .boxes-wrp {
     flex-direction: column;
   }
-  footer .box-wrp {
+  .section-social .box-wrp {
     margin: 30px 0;
   }
 }
@@ -485,10 +485,10 @@ footer .box-wrp .facebook {
   section.banner {
     padding: 50px;
   }
-  footer .box-wrp .txt-wrp p {
+  .section-social .box-wrp .txt-wrp p {
     font-size: 25px;
   }
-  footer .box-wrp .txt-wrp span {
+  .section-social .box-wrp .txt-wrp span {
     font-size: 18px;
   }
 }
@@ -521,13 +521,13 @@ footer .box-wrp .facebook {
   .section-bridges .bridge-wrp {
     flex: 0 0 50%;
   }
-  footer .box-wrp .txt-wrp p {
+  .section-social .box-wrp .txt-wrp p {
     font-size: 18px;
   }
-  footer .box-wrp .txt-wrp span {
+  .section-social .box-wrp .txt-wrp span {
     font-size: 16px;
   }
-  footer .box-wrp .logo-wrp .book {
+  .section-social .box-wrp .logo-wrp .book {
     width: 90px;
     top: -15px;
   }

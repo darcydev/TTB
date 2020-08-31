@@ -56,6 +56,13 @@ window.onload = () => {
 
   addActiveClassToActivePage();
 
-  /* TIMELINE */
-  timeline = new TL.Timeline('timeline-embed', 'data/sample-timeline-data.json');
+  /* INCLUDE SECTION ON EACH PAGE */
+  $(function () {
+    var includes = $('[data-include]');
+
+    jQuery.each(includes, function () {
+      var file = 'views/' + $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
 };
