@@ -8,6 +8,16 @@ window.onload = () => {
     }
   });
 
+  /* INCLUDE SECTION ON EACH PAGE */
+  $(function () {
+    var includes = $('[data-include]');
+
+    jQuery.each(includes, function () {
+      var file = 'views/' + $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
+
   /* MOBILE NAV */
   const closeHamburgerMenu = () => {
     $('.hamburger').toggleClass('is-active');
@@ -55,14 +65,4 @@ window.onload = () => {
   }
 
   addActiveClassToActivePage();
-
-  /* INCLUDE SECTION ON EACH PAGE */
-  $(function () {
-    var includes = $('[data-include]');
-
-    jQuery.each(includes, function () {
-      var file = 'views/' + $(this).data('include') + '.html';
-      $(this).load(file);
-    });
-  });
 };
