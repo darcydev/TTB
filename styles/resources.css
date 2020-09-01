@@ -1,0 +1,60 @@
+.section-resources .boxes-wrp {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section-resources .box-wrp {
+  background: var(--main-grey);
+  flex: 0 0 32%;
+  flex-wrap: wrap;
+  height: 400px;
+  position: relative;
+}
+.section-resources .box-wrp .content {
+  padding: 20px;
+  position: relative;
+  height: 80%;
+}
+.section-resources .box-wrp h4 {
+  color: var(--main-gold);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: AppleGothic;
+}
+.section-resources .box-wrp h3 {
+  color: var(--main-black);
+  font-size: 22px;
+  font-family: AppleGothic;
+  font-weight: 700;
+}
+.section-resources .box-wrp .meta {
+  font-size: 14px;
+}
+.section-resources .box-wrp .file-specs {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  font-size: 14px;
+}
+.section-resources .box-wrp .triangle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 120px 120px;
+  border-color: transparent transparent var(--main-gold) transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.section-resources .box-wrp .triangle:hover {
+  border-color: transparent transparent var(--main-brown) transparent;
+}
+@media (max-width: 900px) {
+  .section-resources .box-wrp {
+    flex: 0 0 100%;
+    margin: 10px 0;
+    height: 350px;
+  }
+}

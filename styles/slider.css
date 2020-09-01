@@ -9,13 +9,21 @@
 #splide .slide-4,
 #splide .slide-5 {
   height: 400px;
-  background: url('/assets/images/dummy-image.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
 }
-#splide .splide__pagination {
-  display: none;
+#splide .slide-1 {
+  background: red;
+}
+#splide .slide-2 {
+  background: blue;
+}
+#splide .slide-3 {
+  background: green;
+}
+#splide .slide-4 {
+  background: yellow;
+}
+#splide .slide-5 {
+  background: pink;
 }
 #splide .splide__slide {
   text-align: center;

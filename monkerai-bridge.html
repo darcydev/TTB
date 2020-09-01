@@ -30,12 +30,20 @@
               </div>
             </div>
             <div class="flip-card">
-              <div class="front">Front content</div>
-              <div class="back">Back content</div>
+              <div class="front">
+                <div class="inner"><h2>Second shortest timber truss span remaining</h2></div>
+              </div>
+              <div class="back">
+                <div class="inner"><p>Ea sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
+              </div>
             </div>
             <div class="flip-card">
-              <div class="front">Front content</div>
-              <div class="back">Back content</div>
+              <div class="front">
+                <div class="inner"><h2>Longest "temporary closure" of a timber truss bridge to vehicles</h2></div>
+              </div>
+              <div class="back">
+                <div class="inner"><p>Ea sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
+              </div>
             </div>
           </div>
         </div>
@@ -172,35 +180,34 @@
           </div>
           <div class="section-content">
             <div id="location-closed-alert" class="alert-bar">
-              <img src="" alt="alert" />
+              <img src="/assets/images/icon--alert.png" alt="alert" />
               <p><strong>We're sorry, this location is closed to public access. Click to learn more.</strong></p>
-              <img src="" alt="right arrow" />
             </div>
             <div class="boxes-wrp">
               <div class="box-wrp">
                 <div class="content">
-                  <img src="/assets/images/icon--camera.svg" alt="camera" />
+                  <img src="/assets/images/icon--camera.png" alt="camera" />
                   <h3>Bring a camera</h3>
                   <p>This location has lots of great photo opportunities nearby.</p>
                 </div>
               </div>
               <div class="box-wrp">
                 <div class="content">
-                  <img src="/assets/images/icon--wheelchair.svg" alt="wheelchair" />
+                  <img src="/assets/images/icon--wheelchair.png" alt="wheelchair" />
                   <h3>Wheelchair accessible</h3>
                   <p>This location is easily accessed with convenient ramps.</p>
                 </div>
               </div>
               <div class="box-wrp">
                 <div class="content">
-                  <img src="/assets/images/icon--parking.svg" alt="parking" />
+                  <img src="/assets/images/icon--parking.png" alt="parking" />
                   <h3>Parking available</h3>
                   <p>This location has a free parking lot.</p>
                 </div>
               </div>
               <div class="box-wrp">
                 <div class="content">
-                  <img src="/assets/images/icon--driving.svg" alt="driving" />
+                  <img src="/assets/images/icon--driving.png" alt="driving" />
                   <h3>Driving trail</h3>
                   <p>Monkerai Bridge is only 1km from Other Bridge.</p>
                 </div>
@@ -261,10 +268,15 @@
       new Splide('#splide', {
         type: 'loop',
         padding: {
-          right: '18	rem',
-          left: '18rem',
+          right: '5rem',
+          left: '5rem',
         },
         autoplay: true,
+        pauseOnHover: true,
+        heightRatio: 0.5,
+        pagination: false,
+        lazyLoad: 'nearby',
+        arrowPath: 'm15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z',
       }).mount();
 
       // flip cards

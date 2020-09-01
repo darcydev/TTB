@@ -9,28 +9,7 @@
     margin: 30px 0;
   }
 }
-@media (min-width: 900px) {
-  header .hamburger,
-  header .nav-mobile {
-    display: none;
-  }
-}
 @media (max-width: 900px) {
-  header .nav-desktop {
-    display: none;
-  }
-  header .content {
-    padding: 40px;
-  }
-  header .nav-mobile {
-    padding: 40px;
-  }
-  header .left .logo-wrp img {
-    width: 120px;
-  }
-  header nav ul {
-    align-items: center;
-  }
   .section-map .map-wrp {
     padding: 150px;
   }
@@ -53,21 +32,6 @@
   }
 }
 @media (max-width: 600px) {
-  header .nav-mobile {
-    height: auto;
-  }
-  header .nav-mobile ul {
-    flex-direction: column;
-    padding: 0;
-  }
-  header .nav-mobile ul li {
-    margin: 5px 0;
-    width: 100%;
-  }
-  header .nav-mobile ul li a {
-    font-size: 20px;
-    justify-content: center;
-  }
   .section-heading-wrp h2 {
     font-size: 25px;
   }
