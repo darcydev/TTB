@@ -1,3 +1,7 @@
+@import url('/styles/hero.css');
+@import url('/styles/slider.css');
+@import url('/styles/media-queries.css');
+
 /* FONTS */
 @font-face {
   font-family: 'Caporal Regular';
@@ -254,62 +258,6 @@ header .nav-mobile ul li {
   transform: translate3d(0, -20px, 0) rotate(90deg);
 }
 
-/* HERO BANNER */
-.hero-wrp {
-  height: 800px;
-}
-.hero-home .content {
-  background: url('assets/images/hero.jpg');
-}
-.hero-monkerai .content {
-  background: url('/assets/images/hero--monkerai.jpg');
-}
-.hero-wrp .content {
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.hero-wrp h1 {
-  font-size: 160px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  margin: 0;
-  padding: 50px 0 0 0;
-  letter-spacing: 10px;
-}
-.hero-wrp .boxes-wrp {
-  color: #fff;
-
-  display: flex;
-  justify-content: center;
-  margin: 20px auto 0 auto;
-  justify-content: space-between;
-}
-.hero-wrp .box-wrp {
-  background: var(--main-black);
-  width: 370px;
-  height: 270px;
-  margin: 0 20px;
-}
-.hero-wrp .box-wrp .content {
-  background: inherit;
-  border: 1px solid #fff;
-  margin: 15px;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-}
-.hero-wrp .box-wrp .content h2 {
-  margin: 0;
-  text-align: center;
-  font-family: AppleGothic;
-}
-
 /* BANNER */
 section.banner {
   padding: 100px;
@@ -468,16 +416,6 @@ section .section-content {
   position: absolute;
   top: 8px;
   right: -3px;
-}
-
-/* SLIDER */
-.section-slider {
-  margin: 160px 0 80px 0;
-}
-#splide .splide__track .slide-1 {
-  background: url('/assets/images/dummy-image.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 /* VIRTUAL BRIDGE */
@@ -651,114 +589,4 @@ section .section-content {
   align-items: center;
   justify-content: space-between;
   margin: 10px 0;
-}
-
-/* MEDIA QUERIES */
-@media (max-width: 1300px) {
-  .section-social {
-    padding: 0;
-  }
-  .section-social .boxes-wrp {
-    flex-direction: column;
-  }
-  .section-social .box-wrp {
-    margin: 30px 0;
-  }
-}
-@media (max-width: 1200px) {
-  .hero-wrp {
-    height: 600px;
-  }
-}
-@media (min-width: 900px) {
-  header .hamburger,
-  header .nav-mobile {
-    display: none;
-  }
-}
-@media (max-width: 900px) {
-  header .nav-desktop {
-    display: none;
-  }
-  header .content {
-    padding: 40px;
-  }
-  header .nav-mobile {
-    padding: 40px;
-  }
-  header .left .logo-wrp img {
-    width: 120px;
-  }
-  header nav ul {
-    align-items: center;
-  }
-  .hero-wrp {
-    height: 450px;
-  }
-  .section-map .map-wrp {
-    padding: 150px;
-  }
-  .section-bridges .bridges-wrp {
-    justify-content: center;
-  }
-  .section-bridges .bridge-wrp {
-    flex: 0 0 33%;
-  }
-}
-@media (max-width: 750px) {
-  .hero-wrp .content {
-    background: url('assets/images/hero--tablet.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
-  section.banner {
-    padding: 50px;
-  }
-  .section-social .box-wrp .txt-wrp p {
-    font-size: 25px;
-  }
-  .section-social .box-wrp .txt-wrp span {
-    font-size: 18px;
-  }
-}
-@media (max-width: 600px) {
-  header .nav-mobile {
-    height: auto;
-  }
-  header .nav-mobile ul {
-    flex-direction: column;
-    padding: 0;
-  }
-  header .nav-mobile ul li {
-    margin: 5px 0;
-    width: 100%;
-  }
-  header .nav-mobile ul li a {
-    font-size: 20px;
-    justify-content: center;
-  }
-  .section-heading-wrp h2 {
-    font-size: 25px;
-  }
-  .section-map .map-wrp {
-    padding: 0;
-    height: 200px;
-  }
-  section.banner p {
-    font-size: 18px;
-  }
-  .section-bridges .bridge-wrp {
-    flex: 0 0 50%;
-  }
-  .section-social .box-wrp .txt-wrp p {
-    font-size: 18px;
-  }
-  .section-social .box-wrp .txt-wrp span {
-    font-size: 16px;
-  }
-  .section-social .box-wrp .logo-wrp .book {
-    width: 90px;
-    top: -15px;
-  }
 }

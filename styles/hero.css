@@ -1,0 +1,73 @@
+.hero-wrp {
+  height: 800px;
+}
+.hero-home .content {
+  background: url('assets/images/hero.jpg');
+}
+.hero-monkerai .content {
+  background: url('/assets/images/hero--monkerai.jpg');
+}
+.hero-wrp .content {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero-wrp h1 {
+  font-size: 160px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 50px 0 0 0;
+  letter-spacing: 10px;
+}
+.hero-wrp .boxes-wrp {
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0 auto;
+  justify-content: space-between;
+}
+.hero-wrp .box-wrp {
+  background: var(--main-black);
+  width: 370px;
+  height: 270px;
+  margin: 0 20px;
+}
+.hero-wrp .box-wrp .content {
+  background: inherit;
+  border: 1px solid #fff;
+  margin: 15px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.hero-wrp .box-wrp .content h2 {
+  margin: 0;
+  text-align: center;
+  font-family: AppleGothic;
+}
+
+@media (max-width: 1200px) {
+  .hero-wrp {
+    height: 600px;
+  }
+}
+@media (max-width: 900px) {
+  .hero-wrp {
+    height: 450px;
+  }
+}
+@media (max-width: 750px) {
+  .hero-wrp .content {
+    background: url('assets/images/hero--tablet.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+}
