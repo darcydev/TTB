@@ -1,0 +1,53 @@
+/* FONTS */
+@font-face {
+  font-family: 'Caporal Regular';
+  src: url('/fonts/CaporalRegular205TF/Caporal\ -\ Regular-205TF.eot');
+  src: url('/fonts/CaporalRegular205TF/Caporal\ -\ Regular-205TF.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/CaporalRegular205TF/Caporal\ -\ Regular-205TF.woff2') format('woff2'),
+    url('/fonts/CaporalRegular205TF/Caporal\ -\ Regular-205TF.woff') format('woff'),
+    url('/fonts/CaporalRegular205TF/Caporal\ -\ Regular-205TF.ttf') format('truetype'),
+    url('/fonts/CaporalRegular205TF/Caporal\ -\ Regular-205TF.svg#CaporalRegular205TF') format('svg');
+}
+@font-face {
+  font-family: 'Apple Gothic Regular';
+  src: url('/fonts/AppleGothicRegular/applegothic-regular.ttf') format('truetype');
+}
+
+/* VARIABLES */
+:root {
+  --main-gold: #b1a329;
+  --main-brown: #b7652a;
+  --main-black: #202120;
+  --main-grey: #efecea;
+  --main-red: #ed1c24;
+}
+
+/* GLOBAL */
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Caporal Regular';
+}
+p,
+span {
+  font-family: AppleGothic;
+  font-size: 16px;
+}
+li {
+  font-family: AppleGothic;
+}
+button {
+  cursor: pointer;
+}

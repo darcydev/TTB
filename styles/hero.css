@@ -25,19 +25,39 @@
   padding: 50px 0 0 0;
   letter-spacing: 10px;
 }
-.hero-wrp .boxes-wrp {
-  color: #fff;
-
+.hero-wrp .cards-wrp {
   display: flex;
-  justify-content: center;
-  margin: 20px auto 0 auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 900px;
+  max-width: 95%;
   justify-content: space-between;
 }
-.hero-wrp .box-wrp {
+.hero-wrp .flip-card {
+  margin: 0 10px;
+  flex: 0 0 30%;
+  height: 200px;
+}
+.hero-wrp .flip-card .front {
   background: var(--main-black);
-  width: 370px;
-  height: 270px;
-  margin: 0 20px;
+}
+.hero-wrp .flip-card .back {
+  background: var(--main-gold);
+}
+.hero-wrp .flip-card .inner {
+  padding: 20px;
+  border: 1px solid #fff;
+  height: 100%;
+  margin: 10px;
+}
+.hero-wrp .flip-card .inner p {
+  margin: 0;
+}
+
+/* BOXES */
+.hero-wrp .box-wrp .back {
+  background: blue;
+  transform: rotateY(180deg);
 }
 .hero-wrp .box-wrp .content {
   background: inherit;

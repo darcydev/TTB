@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/styles.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
     <script src="/main.js"></script>
   </head>
@@ -19,15 +20,22 @@
       <section class="hero-wrp hero-monkerai">
         <div class="content">
           <h1>Monkerai Bridge</h1>
-          <div class="boxes-wrp">
-            <div class="box-wrp">
-              <div class="content"><h2>Second oldest timber truss bridge in NSW</h2></div>
+          <div class="cards-wrp">
+            <div class="flip-card">
+              <div class="front">
+                <div class="inner"><h2>Second oldest timber truss bridge in NSW</h2></div>
+              </div>
+              <div class="back">
+                <div class="inner"><p>Ea sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
+              </div>
             </div>
-            <div class="box-wrp">
-              <div class="content"><h2>Second shortest timber truss span remaining</h2></div>
+            <div class="flip-card">
+              <div class="front">Front content</div>
+              <div class="back">Back content</div>
             </div>
-            <div class="box-wrp">
-              <div class="content"><h2>Longest "temporary closure" of a timber truss bridge to vehicles</h2></div>
+            <div class="flip-card">
+              <div class="front">Front content</div>
+              <div class="back">Back content</div>
             </div>
           </div>
         </div>
@@ -249,6 +257,7 @@
     <div data-include="footer"></div>
 
     <script>
+      // load slider
       new Splide('#splide', {
         type: 'loop',
         padding: {
@@ -257,6 +266,9 @@
         },
         autoplay: true,
       }).mount();
+
+      // flip cards
+      $('.flip-card').flip({ axis: 'x', reverse: true });
     </script>
   </body>
 </html>
