@@ -489,7 +489,7 @@ section .section-content {
 .section-article {
   width: 1200px;
   max-width: 95%;
-  margin: auto;
+  margin: 40px auto;
 }
 .section-article a {
   color: inherit;
@@ -547,11 +547,32 @@ section .section-content {
   flex-direction: column;
   padding: 30px 90px;
 }
+.section-article .right-wrp .quote-para {
+  display: flex;
+  align-items: center;
+}
 .section-article .right-wrp .content h2 {
   margin-top: 0;
 }
-.section-article .right-wrp .content span {
+.section-article .right-wrp .content .quote {
   color: var(--main-gold);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+}
+.section-article .right-wrp .content .quote-para:nth-child(odd) p:first-child {
+  order: 2;
+  padding-left: 20px;
+}
+.section-article .right-wrp .content .quote-para:nth-child(even) p:first-child {
+  order: 1;
+  padding-right: 20px;
+}
+.section-article .img-article--full {
+  width: 100%;
+}
+.section-article .img-article--small {
+  width: 150px;
 }
 
 /* SECTION LOCATIONS */
