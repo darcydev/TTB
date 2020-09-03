@@ -2,12 +2,17 @@
   height: 800px;
 }
 .hero-home .content {
-  background: url('assets/images/hero.jpg');
+  background: url('/assets/images/hero.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .hero-monkerai .content {
   background: url('/assets/images/hero--monkerai.jpg');
-}
-.hero-wrp .content {
   height: 100%;
   background-repeat: no-repeat;
   background-position: center center;
