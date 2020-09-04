@@ -69,12 +69,18 @@
 }
 .section-article .right-wrp .content h2 {
   margin-top: 0;
+  font-family: Avenir;
+}
+.section-article .right-wrp .content p {
+  font-family: Avenir;
+  margin: 10px 0;
 }
 .section-article .right-wrp .content .quote {
   color: var(--main-gold);
   font-size: 25px;
   font-style: italic;
   font-weight: 700;
+  font-family: Avenir;
 }
 .section-article .right-wrp .content .quote-para.left p:first-child {
   order: 1;
