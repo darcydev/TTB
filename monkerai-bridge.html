@@ -68,6 +68,7 @@
             <div class="flip-card">
               <div class="front">
                 <div class="inner"><h2>Second oldest timber truss bridge in NSW</h2></div>
+                <div class="triangle"></div>
               </div>
               <div class="back">
                 <div class="inner"><p>Ea sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
@@ -76,6 +77,7 @@
             <div class="flip-card">
               <div class="front">
                 <div class="inner"><h2>Second shortest timber truss span remaining</h2></div>
+                <div class="triangle"></div>
               </div>
               <div class="back">
                 <div class="inner"><p>Ea sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
@@ -84,6 +86,7 @@
             <div class="flip-card">
               <div class="front">
                 <div class="inner"><h2>Longest "temporary closure" of a timber truss bridge to vehicles</h2></div>
+                <div class="triangle"></div>
               </div>
               <div class="back">
                 <div class="inner"><p>Ea sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
@@ -323,8 +326,9 @@
           'data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAoCAYAAAD6xArmAAABnUlEQVRIia3WPyiFURjH8YO66ZZ7iSvlGtRlQGFxB9tdJBaUhbIo3bIYZDUy34EyKRajAQMKGZSSRIqiUMLgfyJ9deq89TjreZ7pfZfPed/T7zznMUARMAfMGM1yaFQFu5AGX2yMuRfv48aYBaBE5duBSf7XMhDTwvMevqqJDwO/At8E4lr4APAt8F0gqYX3Ap8CPwCqtPAc8CHwEyClhWeBF4FfAmktvA14FPgVkNHCW4BbgdvnZi08A1wL3P5Fqxaedvscld3/rBZe7RIS1btNkBaectmOyma+RwtPAnsCt6e1XwuPA1sCt31mSAuPuU4oK6+FN3qNa0MDLQfOBHoMJEJRuw3bAr0D6kJRe7svCvQNaA9CHTztpaFbAx3xUjCmgea8BMxqoE3As0BXggccoMZrm/tAaShqj+6hQC+CL1c7bnlH9gloCEIdXBDoF9CpgU54sRrUQPu8cWtKA+3wJqF5DbQeeBDoevC8DFQA5wI9AspCUdsCdwR6A9SGorYFLgn0VWUYASqBU4f+AF3BqMATwBowGowZY/4Ar/8ijdWXeZ0AAAAASUVORK5CYII=',
       }).mount();
 
-      splide.on('click', function () {
-        console.log(10);
+      splide.on('click', function (e) {
+        console.log(e);
+        // TODO zoom that pic
       });
 
       // flip cards

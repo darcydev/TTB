@@ -72,6 +72,19 @@
   margin: 10px;
   height: 150px;
 }
+.hero-wrp .flip-card .triangle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 80px 80px;
+  border-color: transparent transparent var(--main-gold) transparent;
+  color: #fff;
+  cursor: pointer;
+  background: url('/assets/images/logo.png');
+}
 .hero-wrp .flip-card .inner h2 {
   margin: 0;
   text-align: center;
