@@ -11,7 +11,7 @@
   height: 400px;
 }
 #splide .slide-1 {
-  background: red;
+  background: url('/assets/images/slider--1.jpg');
 }
 #splide .slide-2 {
   background: blue;
@@ -20,11 +20,19 @@
   background: green;
 }
 #splide .slide-4 {
-  background: yellow;
+  background: orange;
 }
 #splide .slide-5 {
   background: pink;
 }
 #splide .splide__slide {
+  position: relative;
   text-align: center;
+}
+#splide .splide__slide p {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  font-size: 22px;
+  color: #fff;
 }

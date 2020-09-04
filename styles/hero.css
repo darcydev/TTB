@@ -44,7 +44,7 @@
   bottom: 0%;
   display: flex;
   flex-wrap: wrap;
-  width: 900px;
+  width: 1053px; /* same width as active slider */
   max-width: 95%;
   justify-content: space-between;
 }
@@ -59,11 +59,14 @@
   min-height: 100% !important;
 }
 .hero-wrp .flip-card .back {
-  background: var(--main-gold);
+  background: var(--main-brown);
   height: auto !important;
   min-height: 100% !important;
 }
 .hero-wrp .flip-card .inner {
+  display: flex;
+  align-items: center;
+  color: #fff;
   padding: 20px;
   border: 1px solid #fff;
   margin: 10px;
@@ -76,6 +79,8 @@
 }
 .hero-wrp .flip-card .inner p {
   margin: 0;
+  text-align: center;
+  font-size: 22px;
 }
 
 @media (max-width: 1200px) {

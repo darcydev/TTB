@@ -100,11 +100,4 @@
   .section-article .content .right-wrp .content {
     padding: 30px;
   }
-  /*   .section-article .quote-para {
-    flex-direction: column;
-  }
-  .section-article .right-wrp .content .quote-para p:first-child {
-    order: 0;
-    padding-left: 0;
-  } */
 }
