@@ -4,8 +4,6 @@
   margin: auto;
 }
 #splide .splide__slide {
-  position: relative;
-  text-align: center;
   background: url('/assets/images/icon--zoom.png');
   background-position: center center;
   background-size: 20px;
