@@ -1,4 +1,7 @@
 .hero-wrp {
+  height: 900px;
+}
+.bg-wrp {
   height: 800px;
 }
 .hero-home .content {
@@ -31,9 +34,11 @@
   letter-spacing: 10px;
 }
 .hero-wrp .cards-wrp {
+  position: absolute;
+  left: 15%;
+  bottom: -100px;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
   width: 900px;
   max-width: 95%;
   justify-content: space-between;
@@ -45,15 +50,19 @@
 }
 .hero-wrp .flip-card .front {
   background: var(--main-black);
+  height: auto !important;
+  min-height: 100% !important;
 }
 .hero-wrp .flip-card .back {
   background: var(--main-gold);
+  height: auto !important;
+  min-height: 100% !important;
 }
 .hero-wrp .flip-card .inner {
   padding: 20px;
   border: 1px solid #fff;
-  height: 100%;
   margin: 10px;
+  height: 150px;
 }
 .hero-wrp .flip-card .inner h2 {
   margin: 0;
@@ -68,6 +77,9 @@
   .hero-wrp {
     height: 600px;
   }
+  .bg-wrp {
+    height: 520px;
+  }
   .hero-wrp h1 {
     font-size: 80px;
   }
@@ -75,6 +87,9 @@
 @media (max-width: 900px) {
   .hero-wrp {
     height: 450px;
+  }
+  .bg-wrp {
+    height: 400px;
   }
   .hero-wrp .cards-wrp {
     flex-direction: column;

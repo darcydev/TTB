@@ -21,6 +21,10 @@
 .section-article .left-wrp .map-wrp {
   height: 200px;
   background: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
 }
 .section-article .cta-wrp {
   background: var(--main-gold);
@@ -59,7 +63,7 @@
   flex-direction: column;
   padding: 30px 90px;
 }
-.section-article .right-wrp .quote-para {
+.section-article .quote-para {
   display: flex;
   align-items: center;
 }
@@ -72,11 +76,11 @@
   font-style: italic;
   font-weight: 700;
 }
-.section-article .right-wrp .content .quote-para:nth-child(odd) p:first-child {
+.section-article .right-wrp .content .quote-para.left p:first-child {
   order: 1;
   padding-left: 20px;
 }
-.section-article .right-wrp .content .quote-para:nth-child(even) p:first-child {
+.section-article .right-wrp .content .quote-para.right p:first-child {
   order: 0;
   padding-right: 20px;
 }
@@ -85,4 +89,22 @@
 }
 .section-article .img-article--small {
   width: 150px;
+}
+@media (max-width: 1000px) {
+  .section-article .content {
+    flex-direction: column;
+  }
+  .section-article .content .right-wrp {
+    margin-top: 20px;
+  }
+  .section-article .content .right-wrp .content {
+    padding: 30px;
+  }
+  /*   .section-article .quote-para {
+    flex-direction: column;
+  }
+  .section-article .right-wrp .content .quote-para p:first-child {
+    order: 0;
+    padding-left: 0;
+  } */
 }

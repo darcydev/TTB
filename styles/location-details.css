@@ -1,0 +1,32 @@
+.section-location-details .boxes-wrp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-location-details .box-wrp {
+  background: var(--main-grey);
+  flex: 0 0 23%;
+  flex-wrap: wrap;
+}
+.section-location-details .box-wrp .content {
+  padding: 20px;
+}
+.section-location-details .box-wrp img {
+  width: 70px;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+@media (max-width: 900px) {
+  .section-location-details .box-wrp {
+    flex: 0 0 46%;
+    margin: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .section-location-details .box-wrp {
+    flex: 0 0 100%;
+    margin: 6px 0;
+    text-align: center;
+  }
+}
