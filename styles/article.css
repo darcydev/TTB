@@ -67,12 +67,15 @@
   display: flex;
   align-items: center;
 }
-.section-article .right-wrp .content h2 {
-  margin-top: 0;
-  font-family: Avenir;
-}
+.section-article .right-wrp .content h2,
+.section-article .right-wrp .content h3,
 .section-article .right-wrp .content p {
   font-family: Avenir;
+}
+.section-article .right-wrp .content h2 {
+  margin-top: 0;
+}
+.section-article .right-wrp .content p {
   margin: 10px 0;
 }
 .section-article .right-wrp .content .quote {

@@ -1,0 +1,83 @@
+.cards-wrp {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: -25%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1053px; /* same width as active slider */
+  max-width: 95%;
+  justify-content: space-between;
+}
+.cards-wrp .flip-card {
+  margin: 0 10px;
+  flex: 0 0 30%;
+  height: 200px;
+}
+.cards-wrp .flip-card .front {
+  background: var(--main-black);
+  height: auto !important;
+  min-height: 100% !important;
+}
+.cards-wrp .flip-card .back {
+  background: var(--main-brown);
+  height: auto !important;
+  min-height: 100% !important;
+}
+.cards-wrp .flip-card .inner {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+  height: 150px;
+}
+.cards-wrp .flip-card .front .inner {
+  border: 1px solid #fff;
+}
+.cards-wrp .flip-card .triangle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 80px 80px;
+  border-color: transparent transparent var(--main-gold) transparent;
+  color: #fff;
+  cursor: pointer;
+  background: url('/assets/images/logo.png');
+}
+.cards-wrp .flip-card .inner h2 {
+  margin: 0;
+  text-align: center;
+  font-family: AppleGothic;
+}
+.cards-wrp .flip-card .inner p {
+  margin: 0;
+  text-align: center;
+  font-size: 22px;
+}
+@media (max-width: 1200px) {
+  .cards-wrp {
+    bottom: 10%;
+  }
+}
+@media (max-width: 900px) {
+  .cards-wrp {
+    bottom: 40%;
+  }
+  .cards-wrp .flip-card {
+    height: 100px;
+    margin: 0 10px;
+    flex: 0 0 26%;
+  }
+  .cards-wrp .flip-card h2 {
+    font-size: 16px;
+  }
+  .cards-wrp .flip-card p {
+    font-size: 16px;
+  }
+}

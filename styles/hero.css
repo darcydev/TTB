@@ -35,67 +35,6 @@
   padding: 50px 0 0 0;
   letter-spacing: 10px;
 }
-.hero-wrp .cards-wrp {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 0%;
-  display: flex;
-  flex-wrap: wrap;
-  width: 1053px; /* same width as active slider */
-  max-width: 95%;
-  justify-content: space-between;
-}
-.hero-wrp .flip-card {
-  margin: 0 10px;
-  flex: 0 0 30%;
-  height: 200px;
-}
-.hero-wrp .flip-card .front {
-  background: var(--main-black);
-  height: auto !important;
-  min-height: 100% !important;
-}
-.hero-wrp .flip-card .back {
-  background: var(--main-brown);
-  height: auto !important;
-  min-height: 100% !important;
-}
-.hero-wrp .flip-card .inner {
-  display: flex;
-  align-items: center;
-  color: #fff;
-  padding: 20px;
-  border: 1px solid #fff;
-  margin: 10px;
-  height: 150px;
-}
-.hero-wrp .flip-card .triangle {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 0 80px 80px;
-  border-color: transparent transparent var(--main-gold) transparent;
-  color: #fff;
-  cursor: pointer;
-  background: url('/assets/images/logo.png');
-}
-.hero-wrp .flip-card .inner h2 {
-  margin: 0;
-  text-align: center;
-  font-family: AppleGothic;
-}
-.hero-wrp .flip-card .inner p {
-  margin: 0;
-  text-align: center;
-  font-size: 22px;
-}
-
 @media (max-width: 1200px) {
   .hero-wrp {
     height: 600px;
@@ -114,16 +53,8 @@
   .bg-wrp {
     height: 400px;
   }
-  .hero-wrp .cards-wrp .flip-card {
-    height: 100px;
-    flex: 0 0 100%;
-    margin: 0 10px;
-  }
 }
 @media (max-width: 750px) {
-  .hero-wrp {
-    margin-bottom: 100px;
-  }
   .hero-home .content {
     background: url('/assets/images/hero--tablet.jpg');
     background-repeat: no-repeat;
