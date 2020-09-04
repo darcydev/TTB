@@ -4,27 +4,24 @@
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  bottom: -25%;
+  bottom: 15%;
   display: flex;
   flex-wrap: wrap;
   width: 1053px; /* same width as active slider */
+  height: 300px;
   max-width: 95%;
   justify-content: space-between;
 }
 .cards-wrp .flip-card {
   margin: 0 10px;
   flex: 0 0 30%;
-  height: 200px;
+  height: 100%;
 }
 .cards-wrp .flip-card .front {
   background: var(--main-black);
-  height: auto !important;
-  min-height: 100% !important;
 }
 .cards-wrp .flip-card .back {
   background: var(--main-brown);
-  height: auto !important;
-  min-height: 100% !important;
 }
 .cards-wrp .flip-card .inner {
   display: flex;
@@ -32,7 +29,8 @@
   color: #fff;
   padding: 20px;
   margin: 10px;
-  height: 150px;
+  height: 79%;
+  width: 79%;
 }
 .cards-wrp .flip-card .front .inner {
   border: 1px solid #fff;
@@ -62,7 +60,7 @@
 }
 @media (max-width: 1200px) {
   .cards-wrp {
-    bottom: 10%;
+    bottom: 38%;
   }
 }
 @media (max-width: 900px) {
@@ -70,7 +68,6 @@
     bottom: 40%;
   }
   .cards-wrp .flip-card {
-    height: 100px;
     margin: 0 10px;
     flex: 0 0 26%;
   }
