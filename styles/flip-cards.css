@@ -4,7 +4,7 @@
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  bottom: 15%;
+  bottom: 0;
   display: flex;
   flex-wrap: wrap;
   width: 1053px; /* same width as active slider */
@@ -19,6 +19,7 @@
 }
 .cards-wrp .flip-card .front {
   background: var(--main-black);
+  display: flex;
 }
 .cards-wrp .flip-card .back {
   background: var(--main-brown);
@@ -27,9 +28,8 @@
   display: flex;
   align-items: center;
   color: #fff;
-  padding: 20px;
-  margin: 10px;
-  height: 79%;
+  margin: auto;
+  height: 95%;
   width: 79%;
 }
 .cards-wrp .flip-card .front .inner {
@@ -48,25 +48,17 @@
   cursor: pointer;
   background: url('/assets/images/logo.png');
 }
-.cards-wrp .flip-card .inner h2 {
+.cards-wrp .flip-card h2 {
   margin: 0;
   text-align: center;
   font-family: AppleGothic;
 }
-.cards-wrp .flip-card .inner p {
+.cards-wrp .flip-card p {
   margin: 0;
   text-align: center;
   font-size: 22px;
 }
-@media (max-width: 1200px) {
-  .cards-wrp {
-    bottom: 38%;
-  }
-}
 @media (max-width: 900px) {
-  .cards-wrp {
-    bottom: 40%;
-  }
   .cards-wrp .flip-card {
     margin: 0 10px;
     flex: 0 0 26%;

@@ -42,4 +42,7 @@
   .alert-bar p {
     text-align: left;
   }
+  .alert-bar:hover {
+    background-position: right 17px bottom 17px;
+  }
 }

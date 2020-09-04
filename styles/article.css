@@ -110,3 +110,27 @@
     padding: 30px;
   }
 }
+@media (max-width: 900px) {
+  .section-article .facts-bar-wrp {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-article .facts-bar-wrp .row {
+    flex: 1;
+  }
+  .section-article .facts-bar-wrp .row img {
+    width: 150px;
+  }
+}
+@media (max-width: 600px) {
+  .section-article .facts-bar-wrp {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section-article .facts-bar-wrp .row {
+    margin: 15px 0;
+  }
+  .section-article .facts-bar-wrp h3 {
+    margin-bottom: 10px;
+  }
+}
