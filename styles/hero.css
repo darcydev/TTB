@@ -1,5 +1,7 @@
 .hero-wrp {
   height: 900px;
+  position: relative;
+  margin-bottom: 0px;
 }
 .bg-wrp {
   height: 800px;
@@ -35,8 +37,11 @@
 }
 .hero-wrp .cards-wrp {
   position: absolute;
-  left: 15%;
-  bottom: -100px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0%;
   display: flex;
   flex-wrap: wrap;
   width: 900px;
@@ -91,20 +96,18 @@
   .bg-wrp {
     height: 400px;
   }
-  .hero-wrp .cards-wrp {
-    flex-direction: column;
-    position: absolute;
-    z-index: 99999;
-    bottom: 37%;
-    left: 2%;
-  }
   .hero-wrp .cards-wrp .flip-card {
-    height: 80px;
+    height: 100px;
+    flex: 0 0 100%;
+    margin: 0 10px;
   }
 }
 @media (max-width: 750px) {
-  .hero-wrp .content {
-    background: url('assets/images/hero--tablet.jpg');
+  .hero-wrp {
+    margin-bottom: 100px;
+  }
+  .hero-home .content {
+    background: url('/assets/images/hero--tablet.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
