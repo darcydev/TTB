@@ -9,14 +9,30 @@
 .section-article .content {
   display: flex;
 }
+.section-article .left-wrp {
+  flex: 1;
+}
+.section-article .right-wrp {
+  flex: 3;
+}
 .section-article .left-wrp .facts-bar-wrp {
   background: var(--main-black);
   padding: 30px;
   color: #fff;
 }
+.section-article .left-wrp .facts-bar-wrp .row:first-child {
+  margin-bottom: 40px;
+}
 .section-article .left-wrp .facts-bar-wrp h3 {
   font-size: 24px;
   margin-top: 0;
+}
+.section-article .left-wrp .facts-bar-wrp p {
+  font-weight: 300;
+}
+.section-article .left-wrp .facts-bar-wrp img {
+  width: 95%;
+  height: auto;
 }
 .section-article .left-wrp .map-wrp {
   height: 200px;
@@ -24,7 +40,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
 }
 .section-article .cta-wrp {
   background: var(--main-gold);
@@ -34,7 +52,7 @@
   -o-transition: all 0.2s;
   transition: all 0.2s;
   background-repeat: no-repeat;
-  background-size: 30px;
+  background-size: 25px;
   background-position: right 20px center;
   color: #fff;
   background-image: url('/assets/images/icon--arrow--dark.png');
@@ -50,8 +68,9 @@
   width: 100%;
 }
 .section-article .cta-wrp p {
-  margin: auto;
-  font-size: 22px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
 }
 .section-article .cta-wrp img {
   position: absolute;
@@ -61,11 +80,12 @@
   background: #fff;
   display: flex;
   flex-direction: column;
-  padding: 30px 90px;
+  padding: 30px 60px;
 }
 .section-article .quote-para {
   display: flex;
   align-items: center;
+  margin: 10px 0;
 }
 .section-article .right-wrp .content h2,
 .section-article .right-wrp .content h3,
@@ -75,8 +95,12 @@
 .section-article .right-wrp .content h2 {
   margin-top: 0;
 }
+.section-article .right-wrp .content h3 {
+  font-size: 17px;
+}
 .section-article .right-wrp .content p {
   margin: 10px 0;
+  font-weight: 300;
 }
 .section-article .right-wrp .content .quote {
   color: var(--main-gold);
@@ -92,6 +116,13 @@
 .section-article .right-wrp .content .quote-para.right p:first-child {
   order: 0;
   padding-right: 20px;
+}
+.section-article .img-wrp {
+  margin: 20px 0;
+}
+.section-article .img-wrp span {
+  color: var(--main-gold);
+  font-weight: 600;
 }
 .section-article .img-article--full {
   width: 100%;

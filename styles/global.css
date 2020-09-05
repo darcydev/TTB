@@ -1,19 +1,17 @@
 /* FONTS */
 @font-face {
   font-family: 'Caporal Regular';
-  src: url('/fonts/CaporalRegular205TF/Caporal\ -\ Regular-205TF.eot');
-  src: url('/fonts/CaporalRegular205TF/Caporal\ -\ Regular-205TF.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/CaporalRegular205TF/Caporal\ -\ Regular-205TF.woff2') format('woff2'),
-    url('/fonts/CaporalRegular205TF/Caporal\ -\ Regular-205TF.woff') format('woff'),
-    url('/fonts/CaporalRegular205TF/Caporal\ -\ Regular-205TF.ttf') format('truetype'),
-    url('/fonts/CaporalRegular205TF/Caporal\ -\ Regular-205TF.svg#CaporalRegular205TF') format('svg');
+  src: url('/fonts/CaporalRegular205TF/CaporalRegular205TF.eot');
+  src: url('/fonts/CaporalRegular205TF/CaporalRegular205TF.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/CaporalRegular205TF/CaporalRegular205TF.woff2') format('woff2'),
+    url('/fonts/CaporalRegular205TF/CaporalRegular205TF.woff') format('woff'),
+    url('/fonts/CaporalRegular205TF/CaporalRegular205TF.ttf') format('truetype'),
+    url('/fonts/CaporalRegular205TF/CaporalRegular205TF.svg#CaporalRegular205TF') format('svg');
 }
 @font-face {
   font-family: 'Apple Gothic Regular';
   src: url('/fonts/AppleGothicRegular/applegothic-regular.ttf') format('truetype');
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* VARIABLES */
 :root {
@@ -40,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Caporal Regular';
+  font-family: 'Caporal Regular', sans-serif;
 }
 p,
 span {

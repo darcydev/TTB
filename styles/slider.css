@@ -1,6 +1,6 @@
 .section-slider {
   padding: 80px 0;
-  max-width: 90%;
+  max-width: 85%;
   margin: auto;
 }
 #splide .splide__slide {
@@ -16,16 +16,12 @@
   height: 100%;
 }
 #splide .splide__slide .zoom {
-  /*   display: none; */
   position: absolute;
   top: 25px;
   right: 25px;
   width: 4%;
   height: auto;
 }
-/* #splide .splide__slide.is-active .zoom {
-  display: inline-block;
-} */
 #splide .splide__slide p {
   position: absolute;
   bottom: 50px;

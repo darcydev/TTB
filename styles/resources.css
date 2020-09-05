@@ -31,10 +31,12 @@
   font-size: 22px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 .section-resources .box-wrp .meta {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: 25px;
 }
 .section-resources .box-wrp .file-specs {
   position: absolute;
