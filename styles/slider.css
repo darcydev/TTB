@@ -4,16 +4,27 @@
   margin: auto;
 }
 #splide .splide__slide {
-  background: url('/assets/images/icon--zoom.png');
-  background-position: center center;
-  background-size: 20px;
-  background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  position: relative;
 }
-#splide .splide__slide img {
+#splide .splide__slide .magnific-popup {
+  cursor: zoom-in;
+}
+#splide .splide__slide img.slide-img {
   width: 100%;
   height: 100%;
+}
+#splide .splide__slide .zoom {
+  display: none;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 4%;
+  height: auto;
+}
+#splide .splide__slide.is-active .zoom {
+  display: inline-block;
 }
 #splide .splide__slide p {
   position: absolute;
@@ -21,4 +32,11 @@
   left: 15px;
   font-size: 22px;
   color: #fff;
+}
+#splide .splide__arrow {
+  background: none;
+}
+#splide .splide__arrow img {
+  width: 17px;
+  height: auto;
 }

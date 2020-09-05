@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monkerai Bridge | Timber Trust Bridges</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css" />
     <link
       title="timeline-styles"
@@ -14,10 +15,10 @@
     <link rel="stylesheet" href="/styles.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-    <script src="/js/main.js"></script>
   </head>
 
   <body>
@@ -131,27 +132,36 @@
         </section>
         <section class="section-slider">
           <div id="splide" class="splide">
+            <div class="splide__arrows">
+              <button class="splide__arrow splide__arrow--prev">
+                <img src="/assets/images/slider--left.png" alt="Slider previous image" />
+              </button>
+              <button class="splide__arrow splide__arrow--next">
+                <img src="/assets/images/slider--right.png" alt="Slider next image" />
+              </button>
+            </div>
             <div class="splide__track">
               <ul class="splide__list">
                 <li id="slide-1" class="splide__slide slide-1">
-                  <img src="/assets/images/slider--1.jpg" alt="Monkerai Bridge 1928" />
-                  <p>Monkerai Bridge shown here in 1928.</p>
+                  <a class="magnific-popup" href="/assets/images/slider--1.jpg">
+                    <img class="zoom" src="/assets/images/icon--zoom.png" alt="Zoom in" />
+                    <img class="slide-img" src="/assets/images/slider--1.jpg" alt="Monkerai Bridge 1928" />
+                    <p>Monkerai Bridge shown here in 1928.</p></a
+                  >
                 </li>
                 <li class="splide__slide slide-2">
-                  <img src="/assets/images/slider--1.jpg" alt="Monkerai Bridge 1928" />
-                  <p>In anim reprehenderit laborum tempor ut elit voluptate.</p>
+                  <a class="magnific-popup" href="/assets/images/slider--1.jpg">
+                    <img class="zoom" src="/assets/images/icon--zoom.png" alt="Zoom in" />
+                    <img class="slide-img" src="/assets/images/slider--1.jpg" alt="Monkerai Bridge 1928" />
+                    <p>In anim reprehenderit laborum tempor ut elit voluptate.</p></a
+                  >
                 </li>
                 <li class="splide__slide slide-3">
-                  <img src="/assets/images/slider--1.jpg" alt="Monkerai Bridge 1928" />
-                  <p>Ex proident duis in irure ut excepteur ad officia excepteur anim.</p>
-                </li>
-                <li class="splide__slide slide-4">
-                  <img src="/assets/images/slider--1.jpg" alt="Monkerai Bridge 1928" />
-                  <p>Ex proident duis in irure ut excepteur ad officia excepteur anim.</p>
-                </li>
-                <li class="splide__slide slide-5">
-                  <img src="/assets/images/slider--1.jpg" alt="Monkerai Bridge 1928" />
-                  <p>Ex proident duis in irure ut excepteur ad officia excepteur anim.</p>
+                  <a class="magnific-popup" href="/assets/images/slider--1.jpg">
+                    <img class="zoom" src="/assets/images/icon--zoom.png" alt="Zoom in" />
+                    <img class="slide-img" src="/assets/images/slider--1.jpg" alt="Monkerai Bridge 1928" />
+                    <p>In anim reprehenderit laborum tempor ut elit voluptate.</p></a
+                  >
                 </li>
               </ul>
             </div>
@@ -171,6 +181,7 @@
                   src="https://sketchfab.com/models/3451ca15a50c4ef0902b977cc41681e3/embed?camera=0&amp;ui_controls=0&amp;ui_infos=0&amp;ui_inspector=0&amp;ui_stop=0&amp;ui_watermark=0&amp;ui_watermark_link=0"
                   frameborder="0"
                   allow="autoplay; fullscreen; vr"
+                  loading="lazy"
                   mozallowfullscreen="true"
                   webkitallowfullscreen="true"
                 ></iframe>
@@ -346,7 +357,7 @@
           </div>
         </section>
       </main>
-      <footer></footer>
+      <footer><script src="/js/main.js"></script></footer>
     </div>
   </body>
 </html>

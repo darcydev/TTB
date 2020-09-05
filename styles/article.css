@@ -103,14 +103,6 @@
   .section-article .content {
     flex-direction: column;
   }
-  .section-article .content .right-wrp {
-    margin-top: 20px;
-  }
-  .section-article .content .right-wrp .content {
-    padding: 30px;
-  }
-}
-@media (max-width: 900px) {
   .section-article .facts-bar-wrp {
     display: flex;
     justify-content: space-between;
@@ -120,6 +112,12 @@
   }
   .section-article .facts-bar-wrp .row img {
     width: 150px;
+  }
+  .section-article .content .right-wrp {
+    margin-top: 20px;
+  }
+  .section-article .content .right-wrp .content {
+    padding: 30px;
   }
 }
 @media (max-width: 600px) {
