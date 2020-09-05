@@ -16,22 +16,24 @@
   height: 100%;
 }
 #splide .splide__slide .zoom {
-  display: none;
+  /*   display: none; */
   position: absolute;
   top: 25px;
   right: 25px;
   width: 4%;
   height: auto;
 }
-#splide .splide__slide.is-active .zoom {
+/* #splide .splide__slide.is-active .zoom {
   display: inline-block;
-}
+} */
 #splide .splide__slide p {
   position: absolute;
-  bottom: 0;
-  left: 15px;
+  bottom: 50px;
+  left: 30px;
   font-size: 22px;
   color: #fff;
+  margin: 0;
+  font-weight: 700;
 }
 #splide .splide__arrow {
   background: none;

@@ -24,10 +24,10 @@ $('.hamburger').click(closeHamburgerMenu);
 if (document.body.contains(document.getElementById('splide'))) {
   const splide = new Splide('#splide', {
     type: 'loop',
-    padding: {
+    /*     padding: {
       right: '5rem',
       left: '5rem',
-    },
+    }, */
     heightRatio: 0.5,
     pagination: false,
     lazyLoad: 'nearby',
