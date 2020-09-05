@@ -1,5 +1,6 @@
 @import url('/styles/global.css');
 @import url('/styles/header.css');
+@import url('/styles/footer.css');
 @import url('/styles/hero.css');
 @import url('/styles/slider.css');
 @import url('/styles/article.css');
@@ -7,30 +8,8 @@
 @import url('/styles/location-details.css');
 @import url('/styles/alert-bar.css');
 @import url('/styles/flip-cards.css');
+@import url('/styles/social-links.css');
 @import url('/styles/media-queries.css');
-
-/* SECTION HEADING */
-.section-heading-wrp {
-  position: relative;
-  width: 100%;
-  border-bottom: 2px solid var(--main-brown);
-}
-.section-heading-wrp h2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  left: 33%;
-  top: -21px;
-  margin: 0 auto -30px auto;
-  height: 50px;
-  width: 450px;
-  font-size: 32px;
-  max-width: 90%;
-  background: var(--main-brown);
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 /* BACKGROUND GRID */
 .bg-grid-wrp {
@@ -118,90 +97,6 @@ section .section-content {
 }
 .section-bridges .bridge-wrp img {
   width: 20px;
-}
-
-/* SOCIALS  */
-.section-social {
-  padding: 120px 0 120px 0;
-}
-.section-social .content {
-  max-width: 1200px;
-  width: 90%;
-  margin: auto;
-}
-.section-social .boxes-wrp {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.section-social .box-wrp {
-  display: flex;
-  align-items: center;
-  height: 70px;
-  background: #efefef;
-  flex: 1;
-  justify-content: space-between;
-  margin: 0 10px;
-  position: relative;
-}
-.section-social .box-wrp .txt-wrp {
-  padding-left: 30px;
-}
-.section-social .box-wrp .txt-wrp p {
-  margin: 0;
-  padding: 0;
-  font-family: 'Caporal Regular';
-  font-size: 25px;
-}
-.section-social .box-wrp .txt-wrp span {
-  color: var(--main-gold);
-  font-family: 'Caporal Regular';
-  font-size: 20px;
-}
-.section-social .box-wrp .bg-wrp {
-  height: 100%;
-  width: 80px;
-  background: var(--main-gold);
-  right: 0;
-  position: absolute;
-}
-.section-social .box-wrp .skew-wrp {
-  height: 100%;
-  background: var(--main-gold);
-  margin: 0 40px 0 0;
-  width: 90px;
-  transform: skewX(-50deg);
-  display: flex;
-  align-items: center;
-}
-.section-social .box-wrp:nth-child(1) .skew-wrp {
-  justify-content: space-evenly;
-}
-.section-social .box-wrp:nth-child(2) .skew-wrp {
-  justify-content: space-between;
-}
-.section-social .box-wrp .book,
-.arrow,
-.facebook {
-  transform: skewX(50deg);
-}
-.section-social .box-wrp .book {
-  width: 120px;
-  position: absolute;
-  top: -32px;
-  right: 60px;
-}
-.section-social .box-wrp .arrow {
-  width: 28px;
-  position: absolute;
-  right: -25px;
-  top: 25px;
-}
-.section-social .box-wrp .facebook {
-  width: 50px;
-  position: absolute;
-  top: 8px;
-  right: -3px;
 }
 
 /* VIRTUAL BRIDGE */

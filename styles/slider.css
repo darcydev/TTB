@@ -12,10 +12,7 @@
   align-items: center;
 }
 #splide .splide__slide img {
-  height: 45%;
   width: 100%;
-}
-#splide .splide__slide.is-active img {
   height: 100%;
 }
 #splide .splide__slide p {

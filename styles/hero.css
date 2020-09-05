@@ -33,7 +33,6 @@
   color: #fff;
   margin: 0;
   padding: 50px 0 0 0;
-  letter-spacing: 10px;
 }
 @media (max-width: 1200px) {
   .hero-wrp {
@@ -60,5 +59,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+  }
+}
+@media (max-width: 600px) {
+  .hero-wrp .content {
+    justify-content: center;
   }
 }
