@@ -5,7 +5,7 @@
 }
 .section-location-details .box-wrp {
   background: var(--main-grey);
-  flex: 0 0 23%;
+  flex: 0 0 24%;
   flex-wrap: wrap;
 }
 .section-location-details .box-wrp .content {
@@ -14,13 +14,16 @@
 .section-location-details .box-wrp img {
   display: flex;
   margin: auto;
-  height: 60px;
-  width: 70px;
+  height: 70px;
+  width: auto;
 }
 .section-location-details .box-wrp h3 {
-  font-family: AppleGothic;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   margin-bottom: 15px;
+}
+.section-location-details .box-wrp p {
+  font-family: 'Montserrat', sans-serif;
 }
 @media (max-width: 900px) {
   .section-location-details .box-wrp {

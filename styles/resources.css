@@ -9,6 +9,11 @@
   flex-wrap: wrap;
   height: 400px;
   position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.section-resources .box-wrp:hover {
+  background: var(--main-brown);
 }
 .section-resources .box-wrp .content {
   padding: 20px;
@@ -19,16 +24,17 @@
   color: var(--main-gold);
   text-transform: uppercase;
   font-size: 18px;
-  font-family: AppleGothic;
+  font-family: 'Montserrat', sans-serif;
 }
 .section-resources .box-wrp h3 {
   color: var(--main-black);
   font-size: 22px;
-  font-family: AppleGothic;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 .section-resources .box-wrp .meta {
   font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
 }
 .section-resources .box-wrp .file-specs {
   position: absolute;
@@ -38,18 +44,12 @@
 }
 .section-resources .box-wrp .triangle {
   position: absolute;
+  bottom: -4px;
   right: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 0 120px 120px;
-  border-color: transparent transparent var(--main-gold) transparent;
-  color: #fff;
-  cursor: pointer;
+  z-index: 9;
 }
-.section-resources .box-wrp .triangle:hover {
-  border-color: transparent transparent var(--main-brown) transparent;
+.section-resources .box-wrp .triangle img {
+  width: 100px;
 }
 @media (max-width: 900px) {
   .section-resources .box-wrp {

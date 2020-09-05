@@ -70,7 +70,7 @@
 .section-article .right-wrp .content h2,
 .section-article .right-wrp .content h3,
 .section-article .right-wrp .content p {
-  font-family: Avenir;
+  font-family: 'Montserrat', sans-serif;
 }
 .section-article .right-wrp .content h2 {
   margin-top: 0;
@@ -83,7 +83,7 @@
   font-size: 25px;
   font-style: italic;
   font-weight: 700;
-  font-family: Avenir;
+  font-family: 'Montserrat', sans-serif;
 }
 .section-article .right-wrp .content .quote-para.left p:first-child {
   order: 1;

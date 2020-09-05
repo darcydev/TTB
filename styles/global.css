@@ -13,6 +13,8 @@
   src: url('/fonts/AppleGothicRegular/applegothic-regular.ttf') format('truetype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* VARIABLES */
 :root {
   --main-gold: #b1a329;
@@ -42,35 +44,12 @@ h6 {
 }
 p,
 span {
-  font-family: AppleGothic;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
 li {
-  font-family: AppleGothic;
+  font-family: 'Montserrat', sans-serif;
 }
 button {
   cursor: pointer;
-}
-
-/* SECTION HEADING */
-.section-heading-wrp {
-  position: relative;
-  width: 100%;
-  border-bottom: 2px solid var(--main-brown);
-}
-.section-heading-wrp h2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  left: 33%;
-  top: -21px;
-  margin: 0 auto -30px auto;
-  height: 50px;
-  width: 450px;
-  font-size: 32px;
-  max-width: 90%;
-  background: var(--main-brown);
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
 }

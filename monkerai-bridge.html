@@ -6,10 +6,16 @@
     <title>Monkerai Bridge | Timber Trust Bridges</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css" />
+    <link
+      title="timeline-styles"
+      rel="stylesheet"
+      href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"
+    />
     <link rel="stylesheet" href="/styles.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
     <script src="/js/main.js"></script>
   </head>
@@ -68,7 +74,7 @@
             <div class="flip-card">
               <div class="front">
                 <div class="inner"><h2>Second oldest timber truss bridge in NSW</h2></div>
-                <div class="triangle"><img src="/assets/images/triangle.png" alt="" /></div>
+                <div class="triangle"><img src="/assets/images/triangle-question.png" alt="" /></div>
               </div>
               <div class="back">
                 <div class="inner"><p>Ea sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
@@ -77,7 +83,7 @@
             <div class="flip-card">
               <div class="front">
                 <div class="inner"><h2>Second shortest timber truss span remaining</h2></div>
-                <div class="triangle"></div>
+                <div class="triangle"><img src="/assets/images/triangle-question.png" alt="" /></div>
               </div>
               <div class="back">
                 <div class="inner"><p>Ea sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
@@ -86,7 +92,7 @@
             <div class="flip-card">
               <div class="front">
                 <div class="inner"><h2>Longest "temporary closure" of a timber truss bridge to vehicles</h2></div>
-                <div class="triangle"></div>
+                <div class="triangle"><img src="/assets/images/triangle-question.png" alt="" /></div>
               </div>
               <div class="back">
                 <div class="inner"><p>Ea sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
@@ -98,7 +104,7 @@
           <div class="flip-card">
             <div class="front">
               <div class="inner"><h2>Second oldest timber truss bridge in NSW</h2></div>
-              <div class="triangle"></div>
+              <div class="triangle"><img src="/assets/images/triangle-question.png" alt="" /></div>
             </div>
             <div class="back">
               <div class="inner"><p>Ea sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
@@ -107,7 +113,7 @@
           <div class="flip-card">
             <div class="front">
               <div class="inner"><h2>Second shortest timber truss span remaining</h2></div>
-              <div class="triangle"></div>
+              <div class="triangle"><img src="/assets/images/triangle-question.png" alt="" /></div>
             </div>
             <div class="back">
               <div class="inner"><p>Ea sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
@@ -116,7 +122,7 @@
           <div class="flip-card">
             <div class="front">
               <div class="inner"><h2>Longest "temporary closure" of a timber truss bridge to vehicles</h2></div>
-              <div class="triangle"></div>
+              <div class="triangle"><img src="/assets/images/triangle-question.png" alt="" /></div>
             </div>
             <div class="back">
               <div class="inner"><p>Ea sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
@@ -311,12 +317,10 @@
                   <h3>Sample news headline</h3>
                   <p class="meta">Sydney Morning Hearld - 5 May, 1988</p>
                   <p class="body">
-                    Cillum aute aliqua esse est magna eiusmod irure ut. Cupidatat qui ex fugiat et consectetur non
-                    voluptate. Sunt officia ullamco proident consectetur occaecat eu nisi dolor ex consequat. Do elit ut
-                    dolore laboris exercitation proident ipsum ad sint est laboris proident fugiat.
+                    Cillum aute aliqua esse est magna eiusmod irure ut. Cupidatat qui ex fugiat et consectetur.
                   </p>
                 </div>
-                <div class="triangle"></div>
+                <div class="triangle"><img src="/assets/images/triangle-arrow.png" alt="" /></div>
               </div>
               <div class="box-wrp">
                 <div class="content">
@@ -324,12 +328,10 @@
                   <h3>Sample news headline</h3>
                   <p class="meta">Sydney Morning Hearld - 5 May, 1988</p>
                   <p class="body">
-                    Cillum aute aliqua esse est magna eiusmod irure ut. Cupidatat qui ex fugiat et consectetur non
-                    voluptate. Sunt officia ullamco proident consectetur occaecat eu nisi dolor ex consequat. Do elit ut
-                    dolore laboris exercitation proident ipsum ad sint est laboris proident fugiat.
+                    Cillum aute aliqua esse est magna eiusmod irure ut. Cupidatat qui ex fugiat et consectetur.
                   </p>
                 </div>
-                <div class="triangle"></div>
+                <div class="triangle"><img src="/assets/images/triangle-arrow.png" alt="" /></div>
               </div>
               <div class="box-wrp">
                 <div class="content">
@@ -338,38 +340,13 @@
                   <p class="body">Cillum aute aliqua esse est magna eiusmod irure ut.</p>
                   <p class="file-specs">PDF 3.5MB</p>
                 </div>
-                <div class="triangle"></div>
+                <div class="triangle"><img src="/assets/images/triangle-arrow.png" alt="" /></div>
               </div>
             </div>
           </div>
         </section>
       </main>
-      <footer>
-        <script>
-          // load slider
-          const splide = new Splide('#splide', {
-            type: 'loop',
-            padding: {
-              right: '5rem',
-              left: '5rem',
-            },
-            pauseOnHover: true,
-            heightRatio: 0.5,
-            pagination: false,
-            lazyLoad: 'nearby',
-            arrowPath:
-              'data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAoCAYAAAD6xArmAAABnUlEQVRIia3WPyiFURjH8YO66ZZ7iSvlGtRlQGFxB9tdJBaUhbIo3bIYZDUy34EyKRajAQMKGZSSRIqiUMLgfyJ9deq89TjreZ7pfZfPed/T7zznMUARMAfMGM1yaFQFu5AGX2yMuRfv48aYBaBE5duBSf7XMhDTwvMevqqJDwO/At8E4lr4APAt8F0gqYX3Ap8CPwCqtPAc8CHwEyClhWeBF4FfAmktvA14FPgVkNHCW4BbgdvnZi08A1wL3P5Fqxaedvscld3/rBZe7RIS1btNkBaectmOyma+RwtPAnsCt6e1XwuPA1sCt31mSAuPuU4oK6+FN3qNa0MDLQfOBHoMJEJRuw3bAr0D6kJRe7svCvQNaA9CHTztpaFbAx3xUjCmgea8BMxqoE3As0BXggccoMZrm/tAaShqj+6hQC+CL1c7bnlH9gloCEIdXBDoF9CpgU54sRrUQPu8cWtKA+3wJqF5DbQeeBDoevC8DFQA5wI9AspCUdsCdwR6A9SGorYFLgn0VWUYASqBU4f+AF3BqMATwBowGowZY/4Ar/8ijdWXeZ0AAAAASUVORK5CYII=',
-          }).mount();
-
-          splide.on('click', function (e) {
-            console.log(e);
-            // TODO zoom that pic
-          });
-
-          // flip cards
-          $('.flip-card').flip({ axis: 'x', reverse: true });
-        </script>
-      </footer>
+      <footer></footer>
     </div>
   </body>
 </html>
