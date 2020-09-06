@@ -33,6 +33,7 @@
   color: #fff;
   margin: 0;
   padding: 50px 0 0 0;
+  font-family: 'Caporal Regular', sans-serif;
 }
 @media (max-width: 1400px) {
   .hero-wrp h1 {
