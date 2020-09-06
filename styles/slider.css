@@ -31,10 +31,26 @@
   margin: 0;
   font-weight: 700;
 }
-#splide .splide__arrow {
+#splide .splide-arrow {
   background: none;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  padding: 0;
+  opacity: 1;
 }
-#splide .splide__arrow img {
-  width: 17px;
+#splide .splide-arrow img {
+  width: 50px;
   height: auto;
+  max-width: 90%;
+}
+@media (max-width: 700px) {
+  #splide .splide__slide p {
+    font-size: 18px;
+  }
+  #splide .splide-arrow {
+    width: 35px;
+  }
 }
