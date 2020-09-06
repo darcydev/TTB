@@ -1,3 +1,6 @@
+.section-location-details {
+  margin: 50px 0 100px 0;
+}
 .section-location-details .boxes-wrp {
   display: flex;
   flex-wrap: wrap;
