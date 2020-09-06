@@ -10,10 +10,10 @@
   display: flex;
 }
 .section-article .left-wrp {
-  flex: 1;
+  width: 340px;
 }
 .section-article .right-wrp {
-  flex: 3;
+  flex: 1;
 }
 .section-article .left-wrp .facts-bar-wrp {
   background: var(--main-black);

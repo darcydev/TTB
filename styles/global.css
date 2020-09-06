@@ -1,5 +1,9 @@
 /* FONTS */
 @font-face {
+  font-family: 'Apple Gothic Regular';
+  src: url('/fonts/AppleGothicRegular/applegothic-regular.ttf') format('truetype');
+}
+@font-face {
   font-family: 'Caporal Regular';
   src: url('/fonts/CaporalRegular205TF/CaporalRegular205TF.eot');
   src: url('/fonts/CaporalRegular205TF/CaporalRegular205TF.eot?#iefix') format('embedded-opentype'),
@@ -7,10 +11,8 @@
     url('/fonts/CaporalRegular205TF/CaporalRegular205TF.woff') format('woff'),
     url('/fonts/CaporalRegular205TF/CaporalRegular205TF.ttf') format('truetype'),
     url('/fonts/CaporalRegular205TF/CaporalRegular205TF.svg#CaporalRegular205TF') format('svg');
-}
-@font-face {
-  font-family: 'Apple Gothic Regular';
-  src: url('/fonts/AppleGothicRegular/applegothic-regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 /* VARIABLES */
