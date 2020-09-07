@@ -33,6 +33,18 @@
   padding: 50px 0 0 0;
   font-family: 'Caporal Regular', sans-serif;
 }
+.hero-wrp .top-bar-wrp {
+  display: flex;
+}
+.hero-wrp .top-bar-wrp h2 {
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-black);
+  margin: 0;
+  padding: 50px 0 0 0;
+  font-family: 'Caporal Regular', sans-serif;
+}
 @media (max-width: 1400px) {
   .hero-wrp h1 {
     font-size: 160px;
