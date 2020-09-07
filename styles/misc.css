@@ -40,9 +40,9 @@
 
 /* BACKGROUND GRID */
 .bg-grid-wrp {
-  background: url('/assets/images/bg--grid--single.jpg');
-  background-repeat: repeat;
-  background-size: 80px;
+  background: url('/assets/images/TTB_Triangular_Grid.svg');
+  /*   background-repeat: repeat;
+  background-size: 80px; */
 }
 
 /* BANNER */

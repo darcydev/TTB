@@ -12,8 +12,12 @@
 .hero--monkerai-bridge .content {
   background: url('/assets/images/hero--monkerai.jpg');
 }
-.hero--percy-allen .content {
+/* .hero--percy-allen .content {
   background: url('/assets/images/hero--percy-allen.jpg');
+} */
+.hero--percy-allen .content {
+  background: url('/assets/images/hero--percy-allen-2.jpg');
+  position: relative;
 }
 .hero-wrp .content {
   height: 100%;
@@ -36,14 +40,93 @@
 .hero-wrp .top-bar-wrp {
   display: flex;
 }
-.hero-wrp .top-bar-wrp h2 {
-  font-size: 60px;
-  text-align: center;
-  text-transform: uppercase;
+.hero-wrp .top-bar-wrp .name-wrp {
+  flex: 3;
+  background: var(--main-grey);
+}
+.hero-wrp .top-bar-wrp .name-wrp h1 {
+  font-size: 100px;
   color: var(--main-black);
   margin: 0;
-  padding: 50px 0 0 0;
-  font-family: 'Caporal Regular', sans-serif;
+  padding: 0;
+  text-align: left;
+  margin-left: 200px;
+}
+.hero-wrp .top-bar-wrp .date-wrp {
+  background: var(--main-gold);
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 330px;
+}
+.hero-wrp .top-bar-wrp .date-wrp:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--main-gold);
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  transform: skew(-45deg);
+  z-index: 2;
+}
+.hero-wrp .top-bar-wrp .date-wrp h1 {
+  font-size: 60px;
+  color: var(--main-black);
+  margin: 0;
+  padding: 0;
+  z-index: 3;
+}
+.hero-wrp .top-bar-wrp .bridge-wrp {
+  background: var(--main-black);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.hero-wrp .top-bar-wrp .bridge-wrp:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--main-black);
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  transform: skew(-45deg);
+  z-index: 2;
+}
+.hero-wrp .top-bar-wrp .bridge-wrp img {
+  width: 80%;
+  margin: auto;
+  z-index: 3;
+}
+.hero--percy-allen .bg-wrp .content:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  background: var(--main-gold);
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  transform: skew(-45deg);
+  z-index: 2;
+  overflow: hidden;
+  overflow-x: hidden;
 }
 @media (max-width: 1400px) {
   .hero-wrp h1 {

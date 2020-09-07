@@ -1,7 +1,7 @@
 .section-about-engineer {
   width: 1200px;
   max-width: 90%;
-  margin: auto;
+  margin: 60px auto;
 }
 .section-about-engineer .content {
   display: flex;
