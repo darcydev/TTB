@@ -86,14 +86,14 @@
 
 /* MEDIA QUERIES */
 @media (max-width: 900px) {
-  .cards-wrp .flip-card {
+  .hero-wrp .cards-wrp .flip-card {
     margin: 0 10px;
     flex: 0 0 30%;
   }
-  .cards-wrp .flip-card h2 {
+  .hero-wrp .cards-wrp .flip-card h2 {
     font-size: 16px;
   }
-  .cards-wrp .flip-card p {
+  .hero-wrp .cards-wrp .flip-card p {
     font-size: 16px;
   }
 }
@@ -103,7 +103,7 @@
   }
 }
 @media (max-width: 700px) {
-  .cards-wrp {
+  .hero-wrp .cards-wrp {
     display: none;
   }
 }
