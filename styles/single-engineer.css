@@ -1,0 +1,56 @@
+.section-about-engineer {
+  width: 1200px;
+  max-width: 90%;
+  margin: auto;
+}
+.section-about-engineer .content {
+  display: flex;
+}
+.section-about-engineer .cards-wrp {
+  justify-content: center;
+}
+.section-about-engineer .flip-card {
+  width: 300px;
+  height: 300px;
+  margin: 10px 0;
+}
+@media (max-width: 1200px) {
+  .section-about-engineer .content {
+    flex-direction: column;
+  }
+}
+
+/* RELATED BRIDGES */
+.section-engineer-bridges .boxes-wrp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-engineer-bridges .box-wrp {
+  flex: 0 0 32%;
+}
+.section-engineer-bridges .box-wrp img {
+  width: 100%;
+}
+.section-engineer-bridges .box-wrp .content {
+  position: relative;
+}
+.section-engineer-bridges .box-wrp .cta-wrp {
+  background: var(--secondary-black);
+  color: #fff;
+  position: absolute;
+  width: 75%;
+  bottom: 0;
+}
+.section-engineer-bridges .box-wrp .cta-content {
+  padding: 30px;
+}
+.section-engineer-bridges .box-wrp .cta-wrp h3 {
+  margin: 0 0 5px 0;
+}
+.section-engineer-bridges .box-wrp .cta-wrp p {
+  margin: 0 0 15px 0;
+}
+.section-engineer-bridges .box-wrp .cta-wrp img.bridge {
+  width: 130px;
+}

@@ -58,7 +58,7 @@
 }
 
 /* DESKTOP */
-.cards-wrp {
+.cards-wrp--home {
   position: absolute;
   left: 0;
   right: 0;
@@ -68,7 +68,7 @@
   height: 300px;
   justify-content: space-between;
 }
-.cards-wrp .flip-card {
+.cards-wrp--home .flip-card {
   margin: 0 10px;
   flex: 0 0 30%;
   height: 100%;

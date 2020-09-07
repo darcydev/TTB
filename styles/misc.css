@@ -1,8 +1,16 @@
+/* FLEX SECTION */
+.section-flex .content {
+  display: flex;
+}
+
 /* SECTION HEADING */
 .section-heading-wrp {
   position: relative;
   width: 100%;
   border-bottom: 2px solid var(--main-brown);
+}
+.section-heading-wrp.black {
+  border-bottom: 2px solid #000;
 }
 .section-heading-wrp h2 {
   display: flex;
@@ -20,6 +28,9 @@
   text-align: center;
   text-transform: uppercase;
   font-family: 'Caporal Regular', sans-serif;
+}
+.section-heading-wrp.black h2 {
+  background: #000;
 }
 @media (max-width: 600px) {
   .section-heading-wrp h2 {
@@ -167,4 +178,15 @@ section .section-content {
 /* VIRTUAL BRIDGE */
 .section-virtual-view .virtual-wrp {
   margin-top: 60px;
+}
+
+/* TRIANGLE */
+.box-wrp .triangle {
+  position: absolute;
+  bottom: -4px;
+  right: 0;
+  z-index: 9;
+}
+.box-wrp .triangle img {
+  width: 100px;
 }
