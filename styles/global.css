@@ -45,12 +45,17 @@ h5,
 h6,
 p,
 span,
-a {
-  font-family: 'Montserrat', sans-serif;
-}
+a,
+input,
+button,
 li {
   font-family: 'Montserrat', sans-serif;
 }
 button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
   cursor: pointer;
 }

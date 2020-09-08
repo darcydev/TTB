@@ -35,8 +35,8 @@
               <li><a href="">Engineers</a></li>
               <li><a href="">Resources</a></li>
               <li><a href="">Contact</a></li>
-              <li>
-                <a href=""><img src="/assets/images/icon--search.png" alt="search" /></a>
+              <li id="open-search">
+                <img src="/assets/images/icon--search.png" alt="search" style="cursor: pointer" />
               </li>
             </ul>
           </nav>
@@ -54,8 +54,8 @@
           <li><a href="">Engineers</a></li>
           <li><a href="">Resources</a></li>
           <li><a href="">Contact</a></li>
-          <li>
-            <a href=""><img src="/assets/images/icon--search.png" alt="search" /></a>
+          <li id="open-search">
+            <img src="/assets/images/icon--search.png" alt="search" style="cursor: pointer" />
           </li>
         </ul>
       </nav>
@@ -295,6 +295,18 @@
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
         <script src="/js/main.js"></script>
       </footer>
+    </div>
+    <div id="search-modal" class="search-modal-wrp">
+      <button id="close-search" class="close-btn">
+        <img src="/assets/images/icon--close--white.png" alt="Close" />
+      </button>
+      <div class="content">
+        <h1>Search</h1>
+        <div class="input-wrp"><input type="text" placeholder="Enter search text here" /></div>
+        <div class="cta-wrp">
+          <a href="/search.html"><button>Search</button></a>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -46,3 +46,14 @@ jQuery('.flip-card').flip({ axis: 'x', reverse: true });
 
 /* IMAGE POPUPS */
 jQuery('.magnific-popup').magnificPopup({ type: 'image' });
+
+/* SEARCH MODAL */
+$(() => {
+  jQuery('#close-search').on('click', () => {
+    jQuery('#search-modal').slideUp(500);
+  });
+
+  jQuery('#open-search').on('click', () => {
+    jQuery('#search-modal').slideDown(500);
+  });
+});
