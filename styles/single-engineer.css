@@ -45,6 +45,62 @@
 .section-engineer-bridges {
   margin-bottom: 100px;
 }
+.section-engineer-bridges .feature-bridge {
+  position: relative;
+  background: var(--main-grey);
+  margin: 200px auto 50px auto;
+  height: 400px;
+  width: 1600px;
+  max-width: 95%;
+}
+.section-engineer-bridges .feature-bridge .cards-wrp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 80%;
+  left: 20px;
+}
+.section-engineer-bridges .feature-bridge .flip-card {
+  z-index: 3;
+  width: 40%;
+}
+.section-engineer-bridges .feature-bridge .flip-card .front {
+  background-color: var(--main-gold);
+  opacity: 1;
+}
+.section-engineer-bridges .feature-bridge .flip-card .front .inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+}
+.section-engineer-bridges .feature-bridge .flip-card .front .inner img {
+  width: 80px;
+}
+.section-engineer-bridges .feature-bridge img.main {
+  position: absolute;
+  width: 800px;
+  max-width: 95%;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-engineer-bridges .feature-bridge img.cta {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  bottom: 0;
+  top: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  right: 50px;
+}
 .section-engineer-bridges .boxes-wrp {
   display: flex;
   flex-wrap: wrap;
@@ -52,6 +108,9 @@
 }
 .section-engineer-bridges .box-wrp {
   flex: 0 0 32%;
+}
+.section-engineer-bridges.row-wrap .box-wrp {
+  margin-bottom: 100px;
 }
 .section-engineer-bridges .box-wrp img {
   width: 100%;
@@ -90,6 +149,9 @@
   width: 85%;
 }
 @media (max-width: 1200px) {
+  .section-engineer-bridges.row-wrap .box-wrp {
+    margin-bottom: 20px;
+  }
   .section-engineer-bridges .box-wrp .content {
     display: flex;
     flex-direction: column;
@@ -97,6 +159,24 @@
   .section-engineer-bridges .box-wrp .cta-wrp {
     position: relative;
     width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .section-engineer-bridges .feature-bridge {
+    margin-top: 100px;
+  }
+  .section-engineer-bridges .feature-bridge .cards-wrp {
+    top: 0;
+    left: 0;
+    margin-top: unset;
+    margin-bottom: unset;
+  }
+  .section-engineer-bridges .feature-bridge img.cta {
+    bottom: 0;
+    right: 0;
+    top: unset;
+    margin-top: unset;
+    margin-bottom: unset;
   }
 }
 @media (max-width: 800px) {

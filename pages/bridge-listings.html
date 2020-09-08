@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Timber Trust Bridges</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css" />
+    <link
+      title="timeline-styles"
+      rel="stylesheet"
+      href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="content">
+        <div class="left">
+          <div id="header-logo" class="logo-wrp">
+            <a href="/"> <img src="/assets/images/logo.png" alt="Timber Trust Bridges Logo" /></a>
+          </div>
+        </div>
+        <div class="right">
+          <nav class="nav-desktop">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li class="active"><a href="/pages/bridge-listings.html">The Bridges</a></li>
+              <li><a href="">Engineers</a></li>
+              <li><a href="">Resources</a></li>
+              <li><a href="">Contact</a></li>
+              <li id="open-search">
+                <img src="/assets/images/icon--search.png" alt="search" style="cursor: pointer" />
+              </li>
+            </ul>
+          </nav>
+          <button id="main-menu-btn" class="hamburger hamburger--slider" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+      <nav class="nav-mobile" style="display: none">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li class="active"><a href="/pages/bridge-listings.html">The Bridges</a></li>
+          <li><a href="">Engineers</a></li>
+          <li><a href="">Resources</a></li>
+          <li><a href="">Contact</a></li>
+          <li id="open-search">
+            <img src="/assets/images/icon--search.png" alt="search" style="cursor: pointer" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="bg-grid-wrp">
+        <div class="page-heading-wrp">
+          <div class="top-bar">
+            <div class="left-wrp">
+              <h1>Bridge Listings</h1>
+            </div>
+            <div class="right-wrp">
+              <a href=""><h2>Switch to map view</h2></a>
+            </div>
+          </div>
+          <div class="filter-bar">
+            <form>
+              <p>Sort by:</p>
+              <div class="div">
+                <input type="radio" id="alpha" name="filter" value="alpha" />
+                <label for="alpha">A-Z</label>
+              </div>
+              <div>
+                <input type="radio" id="type" name="filter" value="type" />
+                <label for="type">Bridge Type</label>
+              </div>
+              <div>
+                <input type="radio" id="region" name="filter" value="region" />
+                <label for="region">Region</label>
+              </div>
+            </form>
+          </div>
+        </div>
+        <section class="section-engineer-bridges row-wrap">
+          <div class="content">
+            <div class="section-heading-wrp black">
+              <h2>Hunter/New England</h2>
+            </div>
+            <div class="feature-bridge">
+              <div class="cards-wrp">
+                <div class="flip-card">
+                  <div class="front">
+                    <div class="inner">
+                      <img src="/assets/images/elephant.png" alt="" />
+                      <h2>The first bridge to have an elephant crossing in NSW</h2>
+                    </div>
+                    <div class="triangle"><img src="/assets/images/triangle-question.png" alt="" /></div>
+                  </div>
+                  <div class="back">
+                    <div class="inner"><p>Esa sunt eu dolore id laboris proident Lorem velit sit magna.</p></div>
+                  </div>
+                </div>
+              </div>
+              <img class="main" src="/assets/images/generic-bridge.png" alt="" />
+              <a href="/"><img class="cta" src="/assets/images/monkerai-cta.png" alt="" /></a>
+            </div>
+            <div class="section-content">
+              <div class="boxes-wrp">
+                <div class="box-wrp">
+                  <div class="content">
+                    <img src="/assets/images/photo--bridge-1.jpg" alt="Monkerai Bridge" />
+                    <div class="cta-wrp">
+                      <div class="cta-content">
+                        <h3>Monkerai Bridge</h3>
+                        <p>Karuah River</p>
+                        <img class="bridge" src="/assets/images/bridge--bennet--white.png" alt="" />
+                        <div class="triangle"><img src="/assets/images/triangle-arrow.png" alt="" /></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-wrp">
+                  <div class="content">
+                    <img src="/assets/images/photo--bridge-2.jpg" alt="Monkerai Bridge" />
+                    <div class="cta-wrp">
+                      <div class="cta-content">
+                        <h3>Monkerai Bridge</h3>
+                        <p>Karuah River</p>
+                        <img class="bridge" src="/assets/images/bridge--bennet--white.png" alt="" />
+                        <div class="triangle"><img src="/assets/images/triangle-arrow.png" alt="" /></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-wrp">
+                  <div class="content">
+                    <img src="/assets/images/photo--bridge-3.jpg" alt="Monkerai Bridge" />
+                    <div class="cta-wrp">
+                      <div class="cta-content">
+                        <h3>Monkerai Bridge</h3>
+                        <p>Karuah River</p>
+                        <img class="bridge" src="/assets/images/bridge--bennet--white.png" alt="" />
+                        <div class="triangle"><img src="/assets/images/triangle-arrow.png" alt="" /></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-wrp">
+                  <div class="content">
+                    <img src="/assets/images/photo--bridge-1.jpg" alt="Monkerai Bridge" />
+                    <div class="cta-wrp">
+                      <div class="cta-content">
+                        <h3>Monkerai Bridge</h3>
+                        <p>Karuah River</p>
+                        <img class="bridge" src="/assets/images/bridge--bennet--white.png" alt="" />
+                        <div class="triangle"><img src="/assets/images/triangle-arrow.png" alt="" /></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-wrp">
+                  <div class="content">
+                    <img src="/assets/images/photo--bridge-2.jpg" alt="Monkerai Bridge" />
+                    <div class="cta-wrp">
+                      <div class="cta-content">
+                        <h3>Monkerai Bridge</h3>
+                        <p>Karuah River</p>
+                        <img class="bridge" src="/assets/images/bridge--bennet--white.png" alt="" />
+                        <div class="triangle"><img src="/assets/images/triangle-arrow.png" alt="" /></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-wrp">
+                  <div class="content">
+                    <img src="/assets/images/photo--bridge-3.jpg" alt="Monkerai Bridge" />
+                    <div class="cta-wrp">
+                      <div class="cta-content">
+                        <h3>Monkerai Bridge</h3>
+                        <p>Karuah River</p>
+                        <img class="bridge" src="/assets/images/bridge--bennet--white.png" alt="" />
+                        <div class="triangle"><img src="/assets/images/triangle-arrow.png" alt="" /></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+          <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+          <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+          <script src="/js/main.js"></script>
+        </footer>
+      </div>
+    </main>
+  </body>
+  <div id="search-modal" class="search-modal-wrp">
+    <button id="close-search" class="close-btn">
+      <img src="/assets/images/icon--close--white.png" alt="Close" />
+    </button>
+    <div class="content">
+      <h1>Search</h1>
+      <div class="input-wrp"><input type="text" placeholder="Enter search text here" /></div>
+      <div class="cta-wrp">
+        <a href="/search.html"><button>Search</button></a>
+      </div>
+    </div>
+  </div>
+</html>

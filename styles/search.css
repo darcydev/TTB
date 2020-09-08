@@ -8,6 +8,7 @@
   width: 100vw;
   color: #fff;
   display: none;
+  z-index: 9;
 }
 .search-modal-wrp .close-btn {
   background: none;
@@ -84,4 +85,24 @@
   font-size: 25px;
   text-align: left;
   margin-left: 10px;
+}
+
+/* FILTER BAR */
+.filter-bar {
+  background: var(--main-black);
+}
+.filter-bar form {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  justify-content: space-between;
+  width: 40%;
+  margin: auto;
+}
+@media (max-width: 1000px) {
+  .filter-bar form {
+    width: 95%;
+    justify-content: space-evenly;
+  }
 }
