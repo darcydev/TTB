@@ -353,25 +353,28 @@ section .section-content {
 }
 .page-heading-wrp .top-bar .left-wrp {
   background: var(--main-grey);
-  flex: 0 0 65%;
+  flex: 0 0 75%;
 }
 .page-heading-wrp .top-bar .left-wrp h1 {
   margin: 0 0 0 200px;
 }
 .page-heading-wrp .top-bar .right-wrp {
   position: relative;
-  flex: 0 0 35%;
-  background-image: url('/assets/images/icon--map.png');
-  background-repeat: no-repeat;
-  background-position: bottom 35px right 30px;
-  background-size: 40px;
+  flex: 0 0 25%;
   background-color: var(--main-gold);
 }
 .page-heading-wrp .top-bar .right-wrp:hover {
   background-size: 45px;
 }
 .page-heading-wrp .top-bar .right-wrp a {
-  margin: auto 90px auto auto;
+  margin: auto 40px auto auto;
+  display: flex;
+  align-items: flex-end;
+  width: 75%;
+}
+.page-heading-wrp .top-bar .right-wrp a img {
+  width: 40px;
+  height: auto;
 }
 .page-heading-wrp .top-bar .right-wrp:after {
   content: '';
@@ -394,36 +397,9 @@ section .section-content {
     font-size: 40px;
     margin: 0 0 0 100px;
   }
-  .page-heading-wrp .top-bar .right-wrp:after {
-    left: 0;
-    width: 10%;
-    -webkit-transform: skew(-20deg);
-    -ms-transform: skew(-20deg);
-    transform: skew(-20deg);
-  }
   .page-heading-wrp .top-bar h2 {
     font-size: 20px;
   }
-}
-@media (max-width: 900px) {
-  .page-heading-wrp .top-bar .left-wrp h1 {
-    margin: 0 0 0 30px;
-  }
-  .page-heading-wrp .top-bar .right-wrp:after {
-    display: none;
-  }
-  .page-heading-wrp .top-bar .right-wrp {
-    background-position: bottom 35px right 20px;
-    background-size: 30px;
-  }
-  .page-heading-wrp .top-bar .right-wrp a {
-    margin: auto auto auto 10px;
-  }
-  .page-heading-wrp .top-bar h2 {
-    font-size: 18px;
-  }
-}
-@media (max-width: 500px) {
   .page-heading-wrp .top-bar {
     flex-direction: column;
     height: 180px;
@@ -432,12 +408,27 @@ section .section-content {
   .page-heading-wrp .top-bar .right-wrp {
     width: 100%;
   }
+  .page-heading-wrp .top-bar .left-wrp {
+    justify-content: center;
+  }
+  .page-heading-wrp .top-bar .left-wrp h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  .page-heading-wrp .top-bar h2 {
+    font-size: 22px;
+  }
+  .page-heading-wrp .top-bar .right-wrp:after {
+    display: none;
+  }
+  .page-heading-wrp .top-bar .right-wrp a {
+    margin: auto;
+    width: 30%;
+  }
+}
+@media (max-width: 500px) {
   .page-heading-wrp .top-bar .left-wrp h1 {
     font-size: 30px;
     margin: 0 0 0 10px;
-  }
-  .page-heading-wrp .top-bar .right-wrp {
-    background-position: center right 20px;
-    background-size: 40px;
   }
 }

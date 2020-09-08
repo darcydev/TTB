@@ -106,3 +106,10 @@
     justify-content: space-evenly;
   }
 }
+@media (max-width: 500px) {
+  .filter-bar form {
+    flex-direction: column;
+    align-items: end;
+    padding: 15px 0;
+  }
+}
