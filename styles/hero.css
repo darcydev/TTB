@@ -15,7 +15,7 @@
   background: url('/assets/images/hero--monkerai.jpg');
 }
 .hero--percy-allen .content {
-  background: url('/assets/images/hero--percy-allen-2.jpg');
+  background: url('/assets/images/hero--percy-allen.jpg');
   position: relative;
 }
 .hero--allen-truss .content {
@@ -39,135 +39,22 @@
   padding: 50px 0 0 0;
   font-family: 'Caporal Regular', sans-serif;
 }
-.hero-wrp .top-bar-wrp {
-  display: flex;
-}
-.hero-wrp .top-bar-wrp .name-wrp {
-  width: 75%;
-  background: var(--main-grey);
-  padding: 20px;
-}
-.hero-wrp .top-bar-wrp .name-wrp h1 {
-  font-size: 100px;
-  color: var(--main-black);
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  margin-left: 100px;
-}
-.hero-wrp .top-bar-wrp .date-wrp {
-  background: var(--main-gold);
-  display: flex;
-  align-items: center;
-  position: relative;
-  width: 330px;
-}
-.hero-wrp .top-bar-wrp .date-wrp:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--main-gold);
-  -webkit-transform-origin: 100% 0;
-  -ms-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-  -webkit-transform: skew(-45deg);
-  -ms-transform: skew(-45deg);
-  transform: skew(-45deg);
-  z-index: 2;
-}
-.hero-wrp .top-bar-wrp .date-wrp h1 {
-  font-size: 60px;
-  color: var(--main-black);
-  margin: 0;
-  padding: 0;
-  z-index: 3;
-}
-.hero-wrp .top-bar-wrp .bridge-wrp {
-  background: var(--main-black);
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-.hero-wrp .top-bar-wrp .bridge-wrp:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--main-black);
-  -webkit-transform-origin: 100% 0;
-  -ms-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-  -webkit-transform: skew(-45deg);
-  -ms-transform: skew(-45deg);
-  transform: skew(-45deg);
-  z-index: 2;
-}
-.hero-wrp .top-bar-wrp .bridge-wrp img {
-  width: 80%;
-  margin: auto;
-  z-index: 3;
-}
-.hero--percy-allen .bg-wrp .content:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 73%;
-  width: 100%;
-  height: 100%;
-  opacity: 0.9;
-  background: var(--main-gold);
-  -webkit-transform-origin: 100% 0;
-  -ms-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-  -webkit-transform: skew(-45deg);
-  -ms-transform: skew(-45deg);
-  transform: skew(-45deg);
-  z-index: 2;
-  overflow: hidden;
-  overflow-x: hidden;
-}
 @media (max-width: 1400px) {
   .hero-wrp h1 {
     font-size: 160px;
   }
-  .hero-wrp .top-bar-wrp .name-wrp h1 {
-    font-size: 70px;
-  }
 }
 @media (max-width: 1200px) {
-  .hero-wrp {
-    height: 600px;
-  }
   .bg-wrp {
     height: 520px;
   }
   .hero-wrp h1 {
     font-size: 80px;
   }
-  .hero-wrp .top-bar-wrp .name-wrp h1 {
-    font-size: 50px;
-  }
-  .hero-wrp .top-bar-wrp .date-wrp h1 {
-    font-size: 40px;
-  }
 }
 @media (max-width: 900px) {
-  .hero-wrp {
-    height: 450px;
-  }
   .bg-wrp {
     height: 400px;
-  }
-  .hero-wrp .top-bar-wrp .name-wrp h1 {
-    font-size: 30px;
-  }
-  .hero-wrp .top-bar-wrp .date-wrp h1 {
-    font-size: 25px;
   }
 }
 @media (max-width: 750px) {
@@ -176,10 +63,5 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-  }
-}
-@media (max-width: 600px) {
-  .hero-wrp .content {
-    justify-content: center;
   }
 }

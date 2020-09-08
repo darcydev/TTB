@@ -229,32 +229,99 @@ section .section-content {
 /* ENGINEER CTA */
 .section-engineer-cta {
   background: var(--main-grey);
-  height: 600px;
-}
-.section-engineer-cta .section-content {
+  height: 400px;
   position: relative;
-  height: 600px;
-  width: 600px;
+  width: 1200px;
+  max-width: 90%;
+  margin: 200px auto;
 }
 .section-engineer-cta.percy-allen .main-tile {
-  background: url('/assets/images/engineer-cta.png');
+  background: url('/assets/images/engineer-cta.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 100%;
-  width: 100%;
+  height: 600px;
+  width: 80%;
   position: relative;
-}
-.section-engineer-cta.percy-allen .main-tile a {
+  color: #fff;
+  z-index: 2;
   position: absolute;
   bottom: 0;
   left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-engineer-cta .main-tile .left,
+.section-engineer-cta .main-tile .right {
+  position: absolute;
+  text-align: center;
+}
+.section-engineer-cta .main-tile p {
+  margin: 0;
+  font-size: 55px;
+  font-weight: 700;
+}
+.section-engineer-cta .main-tile p.s {
+  font-size: 40px;
+}
+.section-engineer-cta .main-tile .left {
+  left: 20px;
+  top: 50px;
+}
+.section-engineer-cta .main-tile .right {
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-engineer-cta.percy-allen .main-tile a {
+  margin: 15px auto;
+  width: 310px;
   color: var(--main-black);
   cursor: pointer;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  background: url('/assets/images/icon--arrow--dark.png');
+  background-repeat: no-repeat;
+  background-position: center right 10px;
+  background-size: 26px;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  text-align: left;
+}
+.section-engineer-cta.percy-allen .main-tile a:hover {
+  background-position: center right;
 }
 .section-engineer-cta .profile-pic-tile {
-  width: 300px;
+  position: absolute;
+  bottom: -100px;
+  right: -120px;
+}
+.section-engineer-cta .profile-pic-tile img {
+  width: 400px;
   height: auto;
+}
+@media (max-width: 1200px) {
+  .section-engineer-cta .main-tile .left {
+    left: 5%;
+    top: 7%;
+  }
+  .section-engineer-cta .main-tile .right {
+    bottom: 7%;
+    right: 5%;
+  }
+}
+@media (max-width: 1000px) {
+  .section-engineer-cta .main-tile p {
+    font-size: 40px;
+  }
+  .section-engineer-cta .main-tile p.s {
+    font-size: 30px;
+  }
 }
