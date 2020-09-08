@@ -1,7 +1,9 @@
 .hero-wrp {
-  height: 900px;
   position: relative;
   margin-bottom: 0px;
+}
+.hero--monkerai-bridge {
+  height: 900px;
 }
 .bg-wrp {
   height: 800px;
@@ -12,12 +14,12 @@
 .hero--monkerai-bridge .content {
   background: url('/assets/images/hero--monkerai.jpg');
 }
-/* .hero--percy-allen .content {
-  background: url('/assets/images/hero--percy-allen.jpg');
-} */
 .hero--percy-allen .content {
   background: url('/assets/images/hero--percy-allen-2.jpg');
   position: relative;
+}
+.hero--allen-truss .content {
+  background: url('/assets/images/hero--allen-truss.jpg');
 }
 .hero-wrp .content {
   height: 100%;
@@ -41,8 +43,9 @@
   display: flex;
 }
 .hero-wrp .top-bar-wrp .name-wrp {
-  flex: 3;
+  width: 75%;
   background: var(--main-grey);
+  padding: 20px;
 }
 .hero-wrp .top-bar-wrp .name-wrp h1 {
   font-size: 100px;
@@ -50,7 +53,7 @@
   margin: 0;
   padding: 0;
   text-align: left;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 .hero-wrp .top-bar-wrp .date-wrp {
   background: var(--main-gold);
@@ -132,6 +135,9 @@
   .hero-wrp h1 {
     font-size: 160px;
   }
+  .hero-wrp .top-bar-wrp .name-wrp h1 {
+    font-size: 70px;
+  }
 }
 @media (max-width: 1200px) {
   .hero-wrp {
@@ -143,6 +149,12 @@
   .hero-wrp h1 {
     font-size: 80px;
   }
+  .hero-wrp .top-bar-wrp .name-wrp h1 {
+    font-size: 50px;
+  }
+  .hero-wrp .top-bar-wrp .date-wrp h1 {
+    font-size: 40px;
+  }
 }
 @media (max-width: 900px) {
   .hero-wrp {
@@ -150,6 +162,12 @@
   }
   .bg-wrp {
     height: 400px;
+  }
+  .hero-wrp .top-bar-wrp .name-wrp h1 {
+    font-size: 30px;
+  }
+  .hero-wrp .top-bar-wrp .date-wrp h1 {
+    font-size: 25px;
   }
 }
 @media (max-width: 750px) {

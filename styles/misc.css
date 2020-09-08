@@ -19,9 +19,9 @@
   left: 33%;
   top: -21px;
   margin: 0 auto -30px auto;
-  height: 50px;
-  width: 450px;
-  font-size: 32px;
+  height: 70px;
+  width: 550px;
+  font-size: 50px;
   max-width: 90%;
   background: var(--main-brown);
   color: #fff;
@@ -41,8 +41,6 @@
 /* BACKGROUND GRID */
 .bg-grid-wrp {
   background: url('/assets/images/grid.svg');
-  /*   background-repeat: repeat;
-  background-size: 80px; */
 }
 
 /* BANNER */
@@ -189,4 +187,74 @@ section .section-content {
 }
 .box-wrp .triangle img {
   width: 100px;
+}
+
+/* BRIDGE DIAGRAM */
+.bridge-diagram-wrp {
+  background: var(--secondary-grey);
+  padding: 100px;
+}
+.bridge-diagram-wrp h2 {
+  font-family: 'Caporal Regular', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--brown-grey);
+  font-size: 30px;
+}
+.bridge-diagram-wrp img {
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .bridge-diagram-wrp {
+    padding: 70px;
+  }
+  .bridge-diagram-wrp h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 800px) {
+  .bridge-diagram-wrp {
+    padding: 40px;
+  }
+  .bridge-diagram-wrp h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .bridge-diagram-wrp {
+    padding: 20px;
+  }
+}
+
+/* ENGINEER CTA */
+.section-engineer-cta {
+  background: var(--main-grey);
+  height: 600px;
+}
+.section-engineer-cta .section-content {
+  position: relative;
+  height: 600px;
+  width: 600px;
+}
+.section-engineer-cta.percy-allen .main-tile {
+  background: url('/assets/images/engineer-cta.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.section-engineer-cta.percy-allen .main-tile a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: var(--main-black);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 30px;
+}
+.section-engineer-cta .profile-pic-tile {
+  width: 300px;
+  height: auto;
 }
