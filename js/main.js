@@ -24,10 +24,6 @@ $('.hamburger').click(closeHamburgerMenu);
 if (document.body.contains(document.getElementById('splide'))) {
   const splide = new Splide('#splide', {
     type: 'loop',
-    /*     padding: {
-      right: '5rem',
-      left: '5rem',
-    }, */
     heightRatio: 0.5,
     pagination: false,
     lazyLoad: 'nearby',
@@ -47,13 +43,26 @@ jQuery('.flip-card').flip({ axis: 'x', reverse: true });
 /* IMAGE POPUPS */
 jQuery('.magnific-popup').magnificPopup({ type: 'image' });
 
-/* SEARCH MODAL */
 $(() => {
+  /* SEARCH MODAL */
   jQuery('#close-search').on('click', () => {
     jQuery('#search-modal').slideUp(500);
   });
 
   jQuery('#open-search').on('click', () => {
     jQuery('#search-modal').slideDown(500);
+  });
+
+  /* SWITCH LIST/MAP VIEW */
+  jQuery('#switch-list-view').on('click', () => {
+    jQuery('#list-view, #map-view').toggle();
+    jQuery('#switch-list-view').toggle();
+    jQuery('#switch-map-view').toggle();
+  });
+
+  jQuery('#switch-map-view').on('click', () => {
+    jQuery('#list-view, #map-view').toggle();
+    jQuery('#switch-list-view').toggle();
+    jQuery('#switch-map-view').toggle();
   });
 });
