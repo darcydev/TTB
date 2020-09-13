@@ -40,6 +40,9 @@ footer nav ul li {
   font-size: 20px;
   margin: 0 5px;
 }
+footer nav ul li:hover {
+  color: var(--main-gold);
+}
 footer nav ul li:nth-child(1) {
   margin-left: 0;
 }
