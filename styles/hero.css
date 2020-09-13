@@ -12,11 +12,21 @@
   font-size: 190px;
   text-align: center;
   color: #fff;
-  margin: 0;
-  padding: 50px 0 0 0;
+  margin: auto;
+  padding: 0;
+}
+.hero--monkerai-bridge h1 {
+  margin: 50px auto 0 auto;
+}
+.hero-wrp img.hero-bridge {
+  width: 700px;
+  max-width: 70%;
+  height: auto;
+  margin: auto;
 }
 .hero--home,
-.hero--monkerai-bridge {
+.hero--monkerai-bridge,
+.hero--engineer {
   height: 900px;
 }
 .bg-wrp {
@@ -71,7 +81,7 @@
   background: url('/assets/images/hero--monkerai.jpg');
 }
 .hero--percy-allen .content {
-  background: url('/assets/images/hero--percy-allen-4.jpg');
+  background: url('/assets/images/hero--percy-allen.jpg');
   position: relative;
 }
 .hero--allen-truss .content {
@@ -133,11 +143,11 @@
   }
 }
 @media (max-width: 1200px) {
-  .bg-wrp {
-    height: 520px;
+  .hero--engineer {
+    height: 600px;
   }
   .hero-wrp h1 {
-    font-size: 80px;
+    font-size: 120px;
   }
 }
 @media (max-width: 1000px) {
@@ -158,8 +168,8 @@
   }
 }
 @media (max-width: 900px) {
-  .bg-wrp {
-    height: 400px;
+  .hero--engineer {
+    height: 500px;
   }
 }
 @media (max-width: 750px) {

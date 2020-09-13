@@ -70,7 +70,7 @@
   width: 40%;
 }
 .section-engineer-bridges .feature-bridge .flip-card .front {
-  background-color: var(--main-gold);
+  background-color: var(--main-black);
   opacity: 1;
 }
 .section-engineer-bridges .feature-bridge .flip-card .front .inner {
@@ -82,6 +82,24 @@
 }
 .section-engineer-bridges .feature-bridge .flip-card .front .inner img {
   width: 80px;
+}
+.section-engineer-bridges .feature-bridge .flip-card .front .triangle-wrp {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 140px 140px;
+  border-color: transparent transparent var(--main-gold) transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.section-engineer-bridges .feature-bridge .flip-card .front:hover .triangle-wrp {
+  border-color: transparent transparent var(--main-brown) transparent;
+}
+.section-engineer-bridges .feature-bridge .flip-card .front img.triangle-question {
+  position: absolute;
+  right: 15px;
+  bottom: 18px;
 }
 .section-engineer-bridges .feature-bridge img.main {
   position: absolute;
@@ -145,11 +163,25 @@
 .section-engineer-bridges .box-wrp .cta-wrp img.bridge {
   width: 130px;
 }
-.section-engineer-bridges .box-wrp .triangle {
-  right: -11px;
+.section-engineer-bridges .box-wrp .triangle-wrp {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 100px 100px;
+  border-color: transparent transparent var(--main-gold) transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
-.section-engineer-bridges .box-wrp .triangle img {
-  width: 85%;
+.section-engineer-bridges .box-wrp:hover .triangle-wrp {
+  border-color: transparent transparent var(--main-brown) transparent;
+}
+.section-engineer-bridges .box-wrp img.triangle-arrow {
+  position: absolute;
+  right: 15px;
+  bottom: 18px;
+  width: 35px;
+  height: auto;
 }
 @media (max-width: 1200px) {
   .section-engineer-bridges.row-wrap .box-wrp {
@@ -187,12 +219,6 @@
     flex: 0 0 100%;
     margin: 10px 0;
   }
-  .section-engineer-bridges .box-wrp .triangle {
-    right: 0;
-  }
-  .section-engineer-bridges .box-wrp .triangle img {
-    width: 90px;
-  }
 }
 
 /* MAP VIEW */
@@ -205,20 +231,29 @@
   padding: 250px 0;
   background: lightblue;
   margin-bottom: 50px;
+  text-align: center;
 }
 .section-engineer-bridges.map-view .more-bridges-wrp {
   background: var(--main-grey);
 }
 .section-engineer-bridges.map-view .content .text-wrp {
-  width: 800px;
+  width: 1200px;
   max-width: 90%;
   margin: auto;
-  padding: 40px 20px 300px 20px;
+  padding: 40px 20px 40px 20px;
+  text-align: center;
 }
 .section-engineer-bridges.map-view .content .text-wrp h2,
 .section-engineer-bridges.map-view .content .text-wrp h3 {
   font-family: 'Caporal Regular', sans-serif;
   text-transform: uppercase;
+  margin: 0;
+}
+.section-engineer-bridges.map-view .content .text-wrp h2 {
+  font-size: 70px;
+}
+.section-engineer-bridges.map-view .content .text-wrp h3 {
+  font-size: 50px;
 }
 .section-engineer-bridges.map-view .content .boxes-wrp {
   display: flex;
@@ -239,6 +274,7 @@
   margin-bottom: 30px;
   margin-left: 10px;
   margin-right: 10px;
+  cursor: pointer;
 }
 .section-engineer-bridges.map-view .content .box-wrp img.bridge {
   width: 200px;

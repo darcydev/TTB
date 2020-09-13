@@ -54,15 +54,15 @@ $(() => {
   });
 
   /* SWITCH LIST/MAP VIEW */
-  jQuery('#switch-list-view').on('click', () => {
+  jQuery('#btn--switch-list-view').on('click', () => {
     jQuery('#list-view, #map-view').toggle();
-    jQuery('#switch-list-view').toggle();
-    jQuery('#switch-map-view').toggle();
+    jQuery('#btn--switch-list-view').css('display', 'none');
+    jQuery('#btn--switch-map-view').css('display', 'flex');
   });
 
-  jQuery('#switch-map-view').on('click', () => {
+  jQuery('#btn--switch-map-view').on('click', () => {
     jQuery('#list-view, #map-view').toggle();
-    jQuery('#switch-list-view').toggle();
-    jQuery('#switch-map-view').toggle();
+    jQuery('#btn--switch-map-view').css('display', 'none');
+    jQuery('#btn--switch-list-view').css('display', 'flex');
   });
 });

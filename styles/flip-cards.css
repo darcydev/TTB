@@ -16,7 +16,7 @@
 }
 .cards-wrp .flip-card .back,
 .cards-wrp--mobile .flip-card .back {
-  background-color: var(--main-brown);
+  background-color: var(--main-gold);
 }
 .cards-wrp .flip-card .inner,
 .cards-wrp--mobile .flip-card .inner {
@@ -48,6 +48,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   padding: 20px;
+  text-transform: none;
 }
 .cards-wrp .flip-card p,
 .cards-wrp--mobile .flip-card p {
@@ -55,6 +56,15 @@
   margin: 0;
   text-align: center;
   font-size: 22px;
+}
+.cards-wrp .flip-card h2,
+.cards-wrp--mobile .flip-card h2 {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding: 20px;
+  text-transform: none;
 }
 
 /* DESKTOP */
@@ -97,13 +107,16 @@
     font-size: 16px;
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .cards-wrp--mobile {
     display: none;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .hero-wrp .cards-wrp {
     display: none;
+  }
+  .hero--monkerai-bridge h1 {
+    margin: auto;
   }
 }
