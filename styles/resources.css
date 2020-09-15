@@ -1,16 +1,16 @@
 .section-resources .boxes-wrp {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 .section-resources .box-wrp {
   background: var(--main-grey);
-  flex: 0 0 32%;
+  flex: 0 0 30%;
   flex-wrap: wrap;
   height: 400px;
   position: relative;
   cursor: pointer;
   transition: all 0.2s ease;
+  margin: 10px;
 }
 .section-resources .box-wrp .content {
   padding: 20px;

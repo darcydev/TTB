@@ -44,7 +44,7 @@ jQuery('.flip-card').flip({ axis: 'x', reverse: true });
 jQuery('.magnific-popup').magnificPopup({ type: 'image' });
 
 /* SCROLL REVEAL */
-ScrollReveal().reveal('.scroll-reveal', { delay: 50, interval: 200 });
+ScrollReveal().reveal('.scroll-reveal', { delay: 200, interval: 300, viewFactor: 0.25 });
 
 $(() => {
   /* SEARCH MODAL */
@@ -79,4 +79,7 @@ $(() => {
     jQuery('#btn--switch-map-view').css('display', 'none');
     jQuery('#btn--switch-list-view').css('display', 'flex');
   });
+
+  /* MIXITUP FILTERING */
+  const mixer = mixitup('.mixitup-container');
 });
