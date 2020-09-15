@@ -51,7 +51,6 @@ $(() => {
   jQuery('#close-search').on('click', () => {
     handleSearchModal(false);
   });
-
   jQuery('#open-search').on('click', () => {
     handleSearchModal(true);
   });
@@ -81,5 +80,8 @@ $(() => {
   });
 
   /* MIXITUP FILTERING */
-  const mixer = mixitup('.mixitup-container');
+
+  if (jQuery('.mixitup-container').length > 0) {
+    const mixer = mixitup('.mixitup-container');
+  }
 });

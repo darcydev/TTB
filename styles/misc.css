@@ -351,7 +351,6 @@ section .section-content {
 .page-heading-wrp .top-bar {
   display: flex;
   align-items: center;
-  height: 90px;
   background: var(--main-grey);
 }
 .page-heading-wrp .top-bar .left-wrp,
@@ -380,6 +379,7 @@ section .section-content {
   position: relative;
   flex: 0 0 35%;
   background-color: var(--main-gold);
+  padding: 20px 0;
 }
 .page-heading-wrp .top-bar .right-wrp:hover {
   background-size: 45px;
@@ -426,7 +426,6 @@ section .section-content {
   }
   .page-heading-wrp .top-bar {
     flex-direction: column;
-    height: 180px;
   }
   .page--resources .page-heading-wrp .top-bar {
     height: auto;
@@ -434,6 +433,7 @@ section .section-content {
   .page-heading-wrp .top-bar .left-wrp,
   .page-heading-wrp .top-bar .right-wrp {
     width: 100%;
+    padding: 10px 0;
   }
   .page-heading-wrp .top-bar .left-wrp {
     justify-content: center;
