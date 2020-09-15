@@ -51,11 +51,14 @@ footer .bottom {
   color: #fff;
   margin: auto auto auto 0;
 }
-footer .bottom .logo-wrp {
+footer img.tfnsw-logo {
   margin-right: 20px;
+  width: 180px;
+  height: auto;
 }
 footer .bottom p {
-  margin: 0;
+  margin: auto 0 0 0;
+  font-size: 18px;
 }
 @media (max-width: 800px) {
   footer {
@@ -77,5 +80,20 @@ footer .bottom p {
   footer .bottom {
     flex-direction: column;
     margin: auto;
+  }
+  footer img.tfnsw-logo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 500px) {
+  footer .content {
+    flex-direction: column;
+  }
+  footer .content .logo-wrp {
+    margin: 0 auto 0 0;
+  }
+  footer nav ul {
+    margin-top: 0;
   }
 }
