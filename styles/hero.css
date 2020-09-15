@@ -149,6 +149,9 @@
   .hero-wrp h1 {
     font-size: 120px;
   }
+  .hero--engineer .hero-txt-wrp {
+    justify-content: unset;
+  }
 }
 @media (max-width: 1000px) {
   .hero-wrp .top-bar h2.name {
