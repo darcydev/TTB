@@ -231,8 +231,13 @@
 }
 @media (max-width: 800px) {
   .section-engineer-bridges .box-wrp {
-    flex: 0 0 100%;
+    flex: 0 0 47%;
     margin: 10px 0;
+  }
+}
+@media (max-width: 500px) {
+  .section-engineer-bridges .box-wrp {
+    flex: 0 0 100%;
   }
 }
 
@@ -248,13 +253,11 @@
   margin-bottom: 50px;
   text-align: center;
 }
-.section-engineer-bridges.map-view .more-bridges-wrp {
-  background: var(--main-grey);
-}
 .section-engineer-bridges.map-view .content .text-wrp {
+  background: var(--main-grey);
   width: 1200px;
   max-width: 90%;
-  margin: auto;
+  margin: 0 auto 20px auto;
   padding: 40px 20px 40px 20px;
   text-align: center;
 }
@@ -322,6 +325,12 @@
 @media (max-width: 900px) {
   .section-engineer-bridges.map-view .content .box-wrp {
     flex: 0 0 35%;
+  }
+  .section-engineer-bridges.map-view .content .text-wrp h2 {
+    font-size: 60px;
+  }
+  .section-engineer-bridges.map-view .content .text-wrp h3 {
+    font-size: 40px;
   }
 }
 @media (max-width: 700px) {

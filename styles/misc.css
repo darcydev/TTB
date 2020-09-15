@@ -84,9 +84,6 @@ section .section-content {
 }
 
 /* MAP */
-.section-map .section-heading-wrp {
-  background: url(assets/images/bg--grid--single--light.jpg);
-}
 .section-map .map-wrp {
   border-bottom: 2px solid #000;
   padding: 300px;

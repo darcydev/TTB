@@ -187,7 +187,7 @@ header .nav-mobile ul li {
     align-items: center;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   header .nav-mobile {
     height: auto;
   }
@@ -198,6 +198,7 @@ header .nav-mobile ul li {
   header .nav-mobile ul li {
     margin: 5px 0;
     width: 100%;
+    text-align: center;
   }
   header .nav-mobile ul li a {
     font-size: 20px;

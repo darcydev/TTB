@@ -49,12 +49,23 @@ ScrollReveal().reveal('.scroll-reveal', { delay: 50, interval: 200 });
 $(() => {
   /* SEARCH MODAL */
   jQuery('#close-search').on('click', () => {
-    jQuery('#search-modal').slideUp(500);
+    handleSearchModal(false);
   });
 
   jQuery('#open-search').on('click', () => {
-    jQuery('#search-modal').slideDown(500);
+    handleSearchModal(true);
   });
+  jQuery('#open-search--mobile').on('click', () => {
+    handleSearchModal(true);
+  });
+
+  function handleSearchModal(toOpen) {
+    if (toOpen) {
+      jQuery('#search-modal').slideDown(500);
+    } else {
+      jQuery('#search-modal').slideUp(500);
+    }
+  }
 
   /* SWITCH LIST/MAP VIEW */
   jQuery('#btn--switch-list-view').on('click', () => {
