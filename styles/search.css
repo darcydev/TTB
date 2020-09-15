@@ -102,8 +102,7 @@
 }
 @media (max-width: 1000px) {
   .filter-bar form {
-    width: 95%;
-    justify-content: space-evenly;
+    width: 80%;
   }
 }
 @media (max-width: 500px) {

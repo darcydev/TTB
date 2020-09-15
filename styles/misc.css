@@ -439,22 +439,41 @@ section .section-content {
     justify-content: center;
   }
   .page-heading-wrp .top-bar h2 {
-    font-size: 22px;
+    font-size: 30px;
   }
   .page-heading-wrp .top-bar .right-wrp:after {
     display: none;
   }
   .page-heading-wrp .top-bar .right-wrp button {
     margin: auto;
-    width: 350px;
+    width: 40%;
   }
   .page-heading-wrp .top-bar .right-wrp button h2 {
     margin: 0 auto 0 0;
   }
 }
+@media (max-width: 1000px) {
+  .page-heading-wrp .top-bar .right-wrp button {
+    width: 80%;
+  }
+}
 @media (max-width: 500px) {
   .page-heading-wrp .top-bar .left-wrp h1 {
-    font-size: 50px;
+    font-size: 35px;
     margin: 0 0 0 10px;
+  }
+  .page-heading-wrp .top-bar .right-wrp button h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .page-heading-wrp .top-bar .right-wrp button {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+  .page-heading-wrp .top-bar .right-wrp button h2,
+  .page-heading-wrp .top-bar .right-wrp button img {
+    margin: auto;
   }
 }

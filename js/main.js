@@ -43,6 +43,9 @@ jQuery('.flip-card').flip({ axis: 'x', reverse: true });
 /* IMAGE POPUPS */
 jQuery('.magnific-popup').magnificPopup({ type: 'image' });
 
+/* SCROLL REVEAL */
+ScrollReveal().reveal('.scroll-reveal', { delay: 50, interval: 200 });
+
 $(() => {
   /* SEARCH MODAL */
   jQuery('#close-search').on('click', () => {

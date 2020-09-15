@@ -157,6 +157,9 @@
   .section-article .content {
     flex-direction: column;
   }
+  .section-article .content .left-wrp {
+    width: 100%;
+  }
   .section-article .facts-bar-wrp {
     display: flex;
     justify-content: space-between;

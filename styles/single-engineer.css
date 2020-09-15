@@ -199,19 +199,34 @@
 @media (max-width: 1000px) {
   .section-engineer-bridges .feature-bridge {
     margin-top: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: none;
+    justify-content: center;
   }
   .section-engineer-bridges .feature-bridge .cards-wrp {
-    top: 0;
-    left: 0;
-    margin-top: unset;
-    margin-bottom: unset;
+    position: relative;
+    display: flex;
+    left: unset;
+    margin: auto;
+  }
+  .section-engineer-bridges .feature-bridge .cards-wrp .flip-card {
+    margin: auto;
+    height: 400px;
+    width: 400px;
+  }
+  .section-engineer-bridges .feature-bridge img.main {
+    position: relative;
+    margin: 30px auto;
+  }
+  .section-engineer-bridges .feature-bridge a {
+    display: flex;
   }
   .section-engineer-bridges .feature-bridge img.cta {
-    bottom: 0;
-    right: 0;
-    top: unset;
-    margin-top: unset;
-    margin-bottom: unset;
+    position: relative;
+    right: unset;
+    margin: auto;
   }
 }
 @media (max-width: 800px) {
