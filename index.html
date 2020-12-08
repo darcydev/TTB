@@ -1,237 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Timber Trust Bridges</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home | Timber Trust Bridges</title>
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css" />
-    <link
-      title="timeline-styles"
-      rel="stylesheet"
-      href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"
-    />
-    <link rel="stylesheet" href="/styles.css" />
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header>
-      <div class="content">
-        <div class="left">
-          <div id="header-logo" class="logo-wrp">
-            <a href="/"><img src="/assets/images/logo.svg" alt="Timber Trust Bridges Logo" /></a>
-          </div>
-        </div>
-        <div class="right">
-          <nav class="nav-desktop">
-            <ul>
-              <li class="active"><a href="/">Home</a></li>
-              <li><a href="/pages/bridge-listings.html">The Bridges</a></li>
-              <li><a href="/pages/engineers/percy-allen.html">Engineers</a></li>
-              <li><a href="/pages/resources.html">Resources</a></li>
-              <li><a href="/pages/contact.html">Contact</a></li>
-              <li id="open-search">
-                <img src="/assets/images/icon--search.png" alt="search" style="cursor: pointer" />
-              </li>
-            </ul>
-          </nav>
-          <button id="main-menu-btn" class="hamburger hamburger--slider" type="button">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-            </span>
-          </button>
-        </div>
-      </div>
-      <nav class="nav-mobile" style="display: none">
-        <ul>
-          <li class="active"><a href="">Home</a></li>
-          <li><a href="/pages/bridge-listings.html">The Bridges</a></li>
-          <li><a href="/pages/engineers/percy-allen.html">Engineers</a></li>
-          <li><a href="/pages/resources.html">Resources</a></li>
-          <li><a href="/pages/contact.html">Contact</a></li>
-          <li id="open-search--mobile">
-            <img src="/assets/images/icon--search.png" alt="search" style="cursor: pointer" />
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="hero-wrp hero--home"><div class="content"></div></div>
-      <div class="bg-grid-wrp">
-        <section class="banner">
-          <div class="light-overlay"></div>
-          <div class="content">
-            <p class="scroll-reveal">
-              Dolor mollit incididunt Lorem est sunt aliqua mollit mollit. Non elit duis nisi Lorem aute velit nulla
-              sunt est sunt fugiat. Nulla amet duis adipisicing anim deserunt laboris occaecat exercitation enim.
-            </p>
-            <p class="scroll-reveal">Enim ut ipsum pariatur magna ex qui deserunt.</p>
-          </div>
-        </section>
-        <section class="section-map scroll-reveal">
-          <div class="content">
-            <div class="section-heading-wrp">
-              <h2>Explore the map</h2>
-            </div>
-            <div class="map-wrp"><h1>INSERT MAP</h1></div>
-          </div>
-        </section>
-        <section class="section-timeline scroll-reveal">
-          <div class="content">
-            <div class="section-heading-wrp">
-              <h2>Scroll through history</h2>
-            </div>
-            <div class="timeline-wrp">
-              <div id="timeline-embed" style="width: 100%; height: 600px"></div>
-            </div>
-          </div>
-        </section>
-        <section class="section-bridges scroll-reveal">
-          <div class="section-heading-wrp">
-            <h2>Discover the types of bridges</h2>
-          </div>
-          <div class="content">
-            <div class="bridges-wrp">
-              <div class="bridge-wrp scroll-reveal">
-                <div class="bridge-img-wrp">
-                  <img src="/assets/images/bridge--bennet.png" alt="Bennet bridge" />
-                </div>
-                <p>Bennet</p>
-              </div>
-              <div class="bridge-wrp scroll-reveal">
-                <div class="bridge-img-wrp">
-                  <img src="/assets/images/bridge--mcdonald.png" alt="McDonald bridge" />
-                </div>
-                <p>McDonald</p>
-              </div>
-              <div class="bridge-wrp scroll-reveal">
-                <div class="bridge-img-wrp">
-                  <img src="/assets/images/bridge--allan.png" alt="Allan bridge" />
-                </div>
-                <p>Allan</p>
-              </div>
-              <div class="bridge-wrp scroll-reveal">
-                <div class="bridge-img-wrp">
-                  <img src="/assets/images/bridge--de-burgh.png" alt="De Burgh bridge" />
-                </div>
-                <p>De Burgh</p>
-              </div>
-              <div class="bridge-wrp scroll-reveal">
-                <div class="bridge-img-wrp">
-                  <img src="/assets/images/bridge--dare.png" alt="Dare bridge" />
-                </div>
-                <p>Dare</p>
-              </div>
-              <div class="bridge-wrp scroll-reveal">
-                <div class="bridge-img-wrp">
-                  <img src="/assets/images/bridge--european-through.png" alt="European Through bridge" />
-                </div>
-                <p>European Through</p>
-              </div>
-              <div class="bridge-wrp scroll-reveal">
-                <div class="bridge-img-wrp">
-                  <img src="/assets/images/bridge--queen-post-deck.png" alt="Queen Post Deck bridge" />
-                </div>
-                <p>Queen Post Deck</p>
-              </div>
-              <div class="bridge-wrp scroll-reveal">
-                <div class="bridge-img-wrp">
-                  <img src="assets/images/bridge--howe-through.png" alt="Howe Through bridge" />
-                </div>
-                <p>Howe Through</p>
-              </div>
-              <div class="bridge-wrp scroll-reveal">
-                <div class="bridge-img-wrp">
-                  <img src="/assets/images/bridge--5-panel-howe-deck.png" alt="5 Panel Howe Deck bridge" />
-                </div>
-                <p>5 Panel Howe Deck</p>
-              </div>
-              <div class="bridge-wrp scroll-reveal">
-                <div class="bridge-img-wrp">
-                  <img src="/assets/images/bridge--6-panel-howe-deck.png" alt="6 Panel Howe Deck bridge" />
-                </div>
-                <p>6 Panel Howe Deck</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="section-social scroll-reveal">
-          <div class="content">
-            <div class="boxes-wrp">
-              <a href="https://facebook.com">
-                <div class="box-wrp cta--facebook">
-                  <div class="txt-wrp"><p>LIKE US ON FACEBOOK</p></div>
-                  <div class="bg-wrp"></div>
-                  <div class="skew-wrp">
-                    <img class="facebook" src="/assets/images/logo--facebook.svg" alt="Facebook" />
-                  </div></div
-              ></a>
-              <a href="/"
-                ><div class="box-wrp cta--amazon">
-                  <div class="txt-wrp">
-                    <p>THE TIMBER TRUSS BRIDGE BOOK</p>
-                    <span>MAKES A GREAT GIFT</span>
-                  </div>
-                  <div class="bg-wrp"></div>
-                  <div class="skew-wrp">
-                    <img class="book" src="/assets/images/book.png" alt="Timber Truss book" />
-                    <img class="arrow" src="/assets/images/icon--arrow--dark.svg" alt="right arrow" />
-                  </div></div
-              ></a>
-            </div>
-          </div>
-        </section>
-        <footer>
-          <div class="content">
-            <div class="logo-wrp">
-              <a href="/"><img src="/assets/images/logo--white.svg" alt="" /></a>
-            </div>
-            <div class="links-wrp">
-              <div class="top">
-                <nav>
-                  <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/pages/bridge-listings.html">The Bridges</a></li>
-                    <li><a href="/pages/engineers/percy-allen.html">Engineers</a></li>
-                    <li><a href="/pages/resources.html">Resources</a></li>
-                    <li><a href="/pages/contact.html">Contact</a></li>
-                  </ul>
-                </nav>
-              </div>
-              <div class="bottom">
-                <a href="https://www.transport.nsw.gov.au/"
-                  ><img class="tfnsw-logo" src="/assets/images/logo--tfnsw.svg" alt="Transport for NSW"
-                /></a>
-                <p>&copy; Transport for NSW</p>
-              </div>
-            </div>
-          </div>
-        </footer>
-      </div>
-    </main>
-  </body>
-  <div id="search-modal" class="search-modal-wrp">
-    <button id="close-search" class="close-btn">
-      <img src="/assets/images/icon--close--white.png" alt="Close" />
-    </button>
-    <div class="content">
-      <h1>Search</h1>
-      <div class="input-wrp"><input type="text" placeholder="Enter search text here" /></div>
-      <div class="cta-wrp">
-        <a href="/search.html"><button>Search</button></a>
-      </div>
-    </div>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
-  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="/js/main.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+		/>
+		<link
+			title="timeline-styles"
+			rel="stylesheet"
+			href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"
+		/>
+		<link rel="stylesheet" href="/styles.css" />
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header>
+			<div class="content">
+				<div class="left">
+					<div id="header-logo" class="logo-wrp">
+						<a href="/"
+							><img
+								src="/assets/images/logo.svg"
+								alt="Timber Trust Bridges Logo"
+						/></a>
+					</div>
+				</div>
+				<div class="right">
+					<nav class="nav-desktop">
+						<ul>
+							<li class="active"><a href="/">Home</a></li>
+							<li><a href="/pages/bridge-listings.html">The Bridges</a></li>
+							<li><a href="/pages/engineers.html">Engineers</a></li>
+							<li><a href="/pages/resources.html">Resources</a></li>
+							<li><a href="/pages/contact.html">Contact</a></li>
+							<li id="open-search">
+								<img
+									src="/assets/images/icon--search.png"
+									alt="search"
+									style="cursor: pointer"
+								/>
+							</li>
+						</ul>
+					</nav>
+					<button
+						id="main-menu-btn"
+						class="hamburger hamburger--slider"
+						type="button"
+					>
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+			</div>
+			<nav class="nav-mobile" style="display: none">
+				<ul>
+					<li class="active"><a href="">Home</a></li>
+					<li><a href="/pages/bridge-listings.html">The Bridges</a></li>
+					<li><a href="/pages/engineers/percy-allen.html">Engineers</a></li>
+					<li><a href="/pages/resources.html">Resources</a></li>
+					<li><a href="/pages/contact.html">Contact</a></li>
+					<li id="open-search--mobile">
+						<img
+							src="/assets/images/icon--search.png"
+							alt="search"
+							style="cursor: pointer"
+						/>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="hero-wrp hero--home"><div class="content"></div></div>
+			<div class="bg-grid-wrp">
+				<section class="banner">
+					<div class="light-overlay"></div>
+					<div class="content">
+						<p class="scroll-reveal">
+							Dolor mollit incididunt Lorem est sunt aliqua mollit mollit. Non
+							elit duis nisi Lorem aute velit nulla sunt est sunt fugiat. Nulla
+							amet duis adipisicing anim deserunt laboris occaecat exercitation
+							enim.
+						</p>
+						<p class="scroll-reveal">
+							Enim ut ipsum pariatur magna ex qui deserunt.
+						</p>
+					</div>
+				</section>
+				<section class="section-map scroll-reveal">
+					<div class="content">
+						<div class="section-heading-wrp">
+							<h2>Explore the map</h2>
+						</div>
+						<div class="map-wrp"><h1>INSERT MAP</h1></div>
+					</div>
+				</section>
+				<section class="section-timeline scroll-reveal">
+					<div class="content">
+						<div class="section-heading-wrp">
+							<h2>Scroll through history</h2>
+						</div>
+						<div class="timeline-wrp">
+							<div id="timeline-embed" style="width: 100%; height: 600px"></div>
+						</div>
+					</div>
+				</section>
+				<section class="section-bridges scroll-reveal">
+					<div class="section-heading-wrp">
+						<h2>Discover the types of bridges</h2>
+					</div>
+					<div class="content">
+						<div class="bridges-wrp">
+							<div class="bridge-wrp scroll-reveal">
+								<div class="bridge-img-wrp">
+									<img
+										src="/assets/images/bridge--bennet.png"
+										alt="Bennet bridge"
+									/>
+								</div>
+								<p>Bennet</p>
+							</div>
+							<div class="bridge-wrp scroll-reveal">
+								<div class="bridge-img-wrp">
+									<img
+										src="/assets/images/bridge--mcdonald.png"
+										alt="McDonald bridge"
+									/>
+								</div>
+								<p>McDonald</p>
+							</div>
+							<div class="bridge-wrp scroll-reveal">
+								<div class="bridge-img-wrp">
+									<img
+										src="/assets/images/bridge--allan.png"
+										alt="Allan bridge"
+									/>
+								</div>
+								<p>Allan</p>
+							</div>
+							<div class="bridge-wrp scroll-reveal">
+								<div class="bridge-img-wrp">
+									<img
+										src="/assets/images/bridge--de-burgh.png"
+										alt="De Burgh bridge"
+									/>
+								</div>
+								<p>De Burgh</p>
+							</div>
+							<div class="bridge-wrp scroll-reveal">
+								<div class="bridge-img-wrp">
+									<img
+										src="/assets/images/bridge--dare.png"
+										alt="Dare bridge"
+									/>
+								</div>
+								<p>Dare</p>
+							</div>
+							<div class="bridge-wrp scroll-reveal">
+								<div class="bridge-img-wrp">
+									<img
+										src="/assets/images/bridge--european-through.png"
+										alt="European Through bridge"
+									/>
+								</div>
+								<p>European Through</p>
+							</div>
+							<div class="bridge-wrp scroll-reveal">
+								<div class="bridge-img-wrp">
+									<img
+										src="/assets/images/bridge--queen-post-deck.png"
+										alt="Queen Post Deck bridge"
+									/>
+								</div>
+								<p>Queen Post Deck</p>
+							</div>
+							<div class="bridge-wrp scroll-reveal">
+								<div class="bridge-img-wrp">
+									<img
+										src="assets/images/bridge--howe-through.png"
+										alt="Howe Through bridge"
+									/>
+								</div>
+								<p>Howe Through</p>
+							</div>
+							<div class="bridge-wrp scroll-reveal">
+								<div class="bridge-img-wrp">
+									<img
+										src="/assets/images/bridge--5-panel-howe-deck.png"
+										alt="5 Panel Howe Deck bridge"
+									/>
+								</div>
+								<p>5 Panel Howe Deck</p>
+							</div>
+							<div class="bridge-wrp scroll-reveal">
+								<div class="bridge-img-wrp">
+									<img
+										src="/assets/images/bridge--6-panel-howe-deck.png"
+										alt="6 Panel Howe Deck bridge"
+									/>
+								</div>
+								<p>6 Panel Howe Deck</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section-social scroll-reveal">
+					<div class="content">
+						<div class="boxes-wrp">
+							<a href="https://facebook.com">
+								<div class="box-wrp cta--facebook">
+									<div class="txt-wrp"><p>LIKE US ON FACEBOOK</p></div>
+									<div class="bg-wrp"></div>
+									<div class="skew-wrp">
+										<img
+											class="facebook"
+											src="/assets/images/logo--facebook.svg"
+											alt="Facebook"
+										/>
+									</div></div
+							></a>
+							<a href="/"
+								><div class="box-wrp cta--amazon">
+									<div class="txt-wrp">
+										<p>THE TIMBER TRUSS BRIDGE BOOK</p>
+										<span>MAKES A GREAT GIFT</span>
+									</div>
+									<div class="bg-wrp"></div>
+									<div class="skew-wrp">
+										<img
+											class="book"
+											src="/assets/images/book.png"
+											alt="Timber Truss book"
+										/>
+										<img
+											class="arrow"
+											src="/assets/images/icon--arrow--dark.svg"
+											alt="right arrow"
+										/>
+									</div></div
+							></a>
+						</div>
+					</div>
+				</section>
+				<footer>
+					<div class="content">
+						<div class="logo-wrp">
+							<a href="/"
+								><img src="/assets/images/logo--white.svg" alt=""
+							/></a>
+						</div>
+						<div class="links-wrp">
+							<div class="top">
+								<nav>
+									<ul>
+										<li><a href="/">Home</a></li>
+										<li>
+											<a href="/pages/bridge-listings.html">The Bridges</a>
+										</li>
+										<li>
+											<a href="/pages/engineers/percy-allen.html">Engineers</a>
+										</li>
+										<li><a href="/pages/resources.html">Resources</a></li>
+										<li><a href="/pages/contact.html">Contact</a></li>
+									</ul>
+								</nav>
+							</div>
+							<div class="bottom">
+								<a href="https://www.transport.nsw.gov.au/"
+									><img
+										class="tfnsw-logo"
+										src="/assets/images/logo--tfnsw.svg"
+										alt="Transport for NSW"
+								/></a>
+								<p>&copy; Transport for NSW</p>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</main>
+	</body>
+	<div id="search-modal" class="search-modal-wrp">
+		<button id="close-search" class="close-btn">
+			<img src="/assets/images/icon--close--white.png" alt="Close" />
+		</button>
+		<div class="content">
+			<h1>Search</h1>
+			<div class="input-wrp">
+				<input type="text" placeholder="Enter search text here" />
+			</div>
+			<div class="cta-wrp">
+				<a href="/search.html"><button>Search</button></a>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+	<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+	<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="/js/main.js"></script>
 </html>
