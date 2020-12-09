@@ -49,21 +49,33 @@ main.driving-tours-page {
 						p {
 							margin: 0;
 							font-weight: 700;
+							font-size: 20px;
 						}
 					}
 
 					.link-wrp {
+						max-width: 300px;
 						margin-top: 10px;
 						border: 2px solid var(--main-gold);
 						border-radius: 4px;
 						padding: 15px 30px 15px 30px;
 						text-transform: uppercase;
 						font-size: 16px;
+						background-image: url('/assets/images/icon--download.png');
+						background-repeat: no-repeat;
+						background-size: 30px;
+						background-position: center right 30px;
+
+						&:hover {
+							background-position: bottom 5px right 30px;
+						}
 					}
 				}
 
 				.image-wrp {
 					flex: 1;
+					width: 100%;
+					height: auto;
 
 					@media (max-width: 1200px) {
 						order: 1;
@@ -72,6 +84,22 @@ main.driving-tours-page {
 					img.driving-tour-map {
 						width: 100%;
 						height: auto;
+					}
+				}
+			}
+
+			.section-engineer-bridges {
+				.content {
+					.section-content {
+						max-width: 80%;
+
+						.boxes-wrp {
+							.box-wrp {
+								@media (max-width: 750px) {
+									flex: 0 0 100%;
+								}
+							}
+						}
 					}
 				}
 			}
