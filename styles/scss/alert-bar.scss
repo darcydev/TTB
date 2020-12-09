@@ -1,0 +1,48 @@
+.alert-bar {
+	position: relative;
+	display: flex;
+	align-items: center;
+	background: url('/assets/images/icon--arrow--white.png');
+	background-repeat: no-repeat;
+	background-position: center right 27px;
+	color: #fff;
+	margin: 10px 0;
+	padding: 0 20px;
+	cursor: pointer;
+	background-color: var(--main-red);
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	height: 60px;
+	&:hover {
+		background-color: var(--main-gold);
+		background-position: center right 20px;
+	}
+	img {
+		width: 40px;
+		position: absolute;
+	}
+	p {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+}
+@media (max-width: 700px) {
+	.alert-bar {
+		height: 150px;
+		flex-direction: column;
+		background-position: center bottom 17px;
+		background-size: 25px;
+		img {
+			position: relative;
+			margin: 20px 0;
+		}
+		p {
+			text-align: left;
+		}
+		&:hover {
+			background-position: right 17px bottom 17px;
+		}
+	}
+}

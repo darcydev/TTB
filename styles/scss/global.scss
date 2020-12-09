@@ -1,0 +1,92 @@
+/* FONTS */
+@font-face {
+	font-family: 'Apple Gothic Regular';
+	src: url('/fonts/AppleGothicRegular/applegothic-regular.ttf')
+		format('truetype');
+}
+@font-face {
+	font-family: 'Caporal Regular';
+	src: url('/fonts/CaporalRegular205TF/CaporalRegular205TF.eot');
+	src: url('/fonts/CaporalRegular205TF/CaporalRegular205TF.eot?#iefix')
+			format('embedded-opentype'),
+		url('/fonts/CaporalRegular205TF/CaporalRegular205TF.woff2') format('woff2'),
+		url('/fonts/CaporalRegular205TF/CaporalRegular205TF.woff') format('woff'),
+		url('/fonts/CaporalRegular205TF/CaporalRegular205TF.ttf') format('truetype'),
+		url('/fonts/CaporalRegular205TF/CaporalRegular205TF.svg#CaporalRegular205TF')
+			format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+/* VARIABLES */
+/* GLOBAL */
+/* GENERAL CLASSES */
+:root {
+	--main-gold: #b1a329;
+	--main-brown: #b7652a;
+	--main-black: #202120;
+	--secondary-black: #212121;
+	--main-grey: #efecea;
+	--secondary-grey: #f1eeea;
+	--main-red: #ed1c24;
+	--brown-grey: #58544e;
+}
+html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+h5 {
+	font-family: 'Montserrat', sans-serif;
+}
+h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+span {
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+input {
+	font-family: 'Montserrat', sans-serif;
+}
+label {
+	font-family: 'Montserrat', sans-serif;
+}
+button {
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+}
+li {
+	font-family: 'Montserrat', sans-serif;
+}
+.flex-center {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+}
