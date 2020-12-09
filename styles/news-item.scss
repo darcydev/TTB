@@ -1,0 +1,33 @@
+main.news-item-page {
+	section.news-article-wrp {
+		background: #fff;
+		width: 900px;
+		max-width: 90%;
+		margin: 50px auto;
+
+		img.banner {
+			width: 100%;
+			height: auto;
+		}
+
+		.content {
+			padding: 40px;
+
+			h2.category {
+				margin-top: 0;
+				color: var(--main-gold);
+				font-weight: 700;
+			}
+
+			p.source {
+				font-weight: 700;
+				margin: 5px 0;
+			}
+
+			p.date {
+				font-weight: 700;
+				margin: 5px 0;
+			}
+		}
+	}
+}

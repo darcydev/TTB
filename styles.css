@@ -1,7 +1,7 @@
 @import url('/styles/global.css');
 @import url('/styles/header.css');
 @import url('/styles/footer.css');
-@import url('/styles/search.css');
+@import url('/styles/search.min.css');
 @import url('/styles/contact-form.css');
 @import url('/styles/hero.css');
 @import url('/styles/slider.css');
@@ -15,4 +15,7 @@
 @import url('/styles/resources.min.css');
 @import url('/styles/resource-tile.min.css');
 @import url('/styles/bridge-listings.min.css');
+@import url('/styles/bridge-tiles.min.css');
+@import url('/styles/publications-listing.min.css');
+@import url('/styles/news-item.min.css');
 @import url('/styles/misc.css');
