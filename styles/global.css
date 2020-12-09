@@ -1,41 +1,44 @@
 /* FONTS */
 @font-face {
-  font-family: 'Apple Gothic Regular';
-  src: url('/fonts/AppleGothicRegular/applegothic-regular.ttf') format('truetype');
+	font-family: 'Apple Gothic Regular';
+	src: url('/fonts/AppleGothicRegular/applegothic-regular.ttf')
+		format('truetype');
 }
 @font-face {
-  font-family: 'Caporal Regular';
-  src: url('/fonts/CaporalRegular205TF/CaporalRegular205TF.eot');
-  src: url('/fonts/CaporalRegular205TF/CaporalRegular205TF.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/CaporalRegular205TF/CaporalRegular205TF.woff2') format('woff2'),
-    url('/fonts/CaporalRegular205TF/CaporalRegular205TF.woff') format('woff'),
-    url('/fonts/CaporalRegular205TF/CaporalRegular205TF.ttf') format('truetype'),
-    url('/fonts/CaporalRegular205TF/CaporalRegular205TF.svg#CaporalRegular205TF') format('svg');
-  font-weight: bold;
-  font-style: normal;
+	font-family: 'Caporal Regular';
+	src: url('/fonts/CaporalRegular205TF/CaporalRegular205TF.eot');
+	src: url('/fonts/CaporalRegular205TF/CaporalRegular205TF.eot?#iefix')
+			format('embedded-opentype'),
+		url('/fonts/CaporalRegular205TF/CaporalRegular205TF.woff2') format('woff2'),
+		url('/fonts/CaporalRegular205TF/CaporalRegular205TF.woff') format('woff'),
+		url('/fonts/CaporalRegular205TF/CaporalRegular205TF.ttf') format('truetype'),
+		url('/fonts/CaporalRegular205TF/CaporalRegular205TF.svg#CaporalRegular205TF')
+			format('svg');
+	font-weight: bold;
+	font-style: normal;
 }
 
 /* VARIABLES */
 :root {
-  --main-gold: #b1a329;
-  --main-brown: #b7652a;
-  --main-black: #202120;
-  --secondary-black: #212121;
-  --main-grey: #efecea;
-  --secondary-grey: #f1eeea;
-  --main-red: #ed1c24;
-  --brown-grey: #58544e;
+	--main-gold: #b1a329;
+	--main-brown: #b7652a;
+	--main-black: #202120;
+	--secondary-black: #212121;
+	--main-grey: #efecea;
+	--secondary-grey: #f1eeea;
+	--main-red: #ed1c24;
+	--brown-grey: #58544e;
 }
 
 /* GLOBAL */
 html,
 body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
+	height: 100%;
+	padding: 0;
+	margin: 0;
 }
 body {
-  overflow-x: hidden;
+	overflow-x: hidden;
 }
 h1,
 h2,
@@ -50,13 +53,21 @@ input,
 label,
 button,
 li {
-  font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 button {
-  cursor: pointer;
+	cursor: pointer;
 }
 a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+/* GENERAL CLASSES */
+.flex-center {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	flex-wrap: wrap;
 }

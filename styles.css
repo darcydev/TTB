@@ -6,12 +6,13 @@
 @import url('/styles/hero.css');
 @import url('/styles/slider.css');
 @import url('/styles/article.css');
-@import url('/styles/resources.css');
 @import url('/styles/location-details.css');
 @import url('/styles/alert-bar.css');
 @import url('/styles/flip-cards.css');
 @import url('/styles/social-links.css');
 @import url('/styles/single-engineer.css');
-@import url('/styles/search-results.css');
-@import url('/styles/bridge-listings.css');
+@import url('/styles/search-results.min.css');
+@import url('/styles/resources.min.css');
+@import url('/styles/resource-tile.min.css');
+@import url('/styles/bridge-listings.min.css');
 @import url('/styles/misc.css');
