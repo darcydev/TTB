@@ -80,6 +80,7 @@
 	height: 900px;
 	.content {
 		background: url('/assets/images/hero--monkerai.jpg');
+		background-repeat: no-repeat;
 	}
 }
 .hero--home {
@@ -132,11 +133,15 @@
 	.content {
 		background: url('/assets/images/hero--percy-allen.jpg');
 		position: relative;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
 	}
 }
 .hero--allen-truss {
 	.content {
 		background: url('/assets/images/hero--allen-truss.jpg');
+		background-repeat: no-repeat;
 	}
 }
 @media (max-width: 1400px) {
