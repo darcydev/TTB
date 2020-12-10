@@ -87,9 +87,28 @@ main.engineers-page {
 				}
 			}
 
-			img.bottom-banner {
+			.bottom-banner-wrp {
 				width: 100%;
-				height: auto;
+				position: relative;
+
+				&:after {
+					content: '';
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background: url(http://placehold.it/20x20/1) repeat;
+					background-image: url('/assets/images/bridge--bennet--white.png');
+					background-repeat: no-repeat;
+					background-position: center center;
+					background-size: 200px;
+				}
+
+				img.bottom-banner {
+					width: 100%;
+					height: auto;
+				}
 			}
 		}
 	}
