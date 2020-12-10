@@ -1,6 +1,48 @@
 main.bridge-listings-page {
-	.list-view-wrp {
-		overflow-x: auto;
+	section.list-view-wrp {
+		.list-grouping-wrp {
+			.section-content {
+				max-width: 95%;
+				width: 1400px;
+
+				ul {
+					list-style: none;
+					background: var(--main-grey);
+					padding: 20px;
+					box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.25);
+					display: flex;
+					flex-wrap: wrap;
+
+					li {
+						flex: 0 0 48%;
+
+						@media (max-width: 1500px) {
+							flex: 0 0 100%;
+						}
+
+						a {
+							display: flex;
+							align-items: center;
+
+							p.bridge-name {
+								margin: 10px 15px 10px 0;
+								font-weight: 700;
+								font-size: 18px;
+							}
+
+							p.bridge-location {
+								margin: 10px 15px 10px 0;
+								font-weight: 700;
+								font-size: 16px;
+							}
+
+							p.truss-type-year {
+							}
+						}
+					}
+				}
+			}
+		}
 
 		table.tableizer-table {
 			margin: auto;
