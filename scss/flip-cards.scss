@@ -29,7 +29,7 @@
 			bottom: -4px;
 			right: 0;
 			img {
-				width: 125px;
+				width: 90px;
 			}
 		}
 		h2 {
@@ -55,24 +55,34 @@
 	}
 
 	.flip-card.game-card {
-		background: var(--main-grey);
+		.front {
+			background: var(--main-grey);
 
-		.inner {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			position: relative;
+			.inner {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				position: relative;
+				border: 1px solid #000;
 
-			img {
-				position: absolute;
-				top: -50px;
-			}
+				img {
+					position: absolute;
+					top: -50px;
+				}
 
-			h2 {
-				color: #000;
-				font-weight: 300;
-				margin: 5px auto;
-				font-family: 'Montserrat', sans-serif;
+				h2 {
+					color: #000;
+					font-weight: 300;
+					margin: 5px auto;
+					font-family: 'Montserrat', sans-serif;
+				}
+
+				h3 {
+					color: #000;
+					margin: 0 auto;
+					font-family: 'Montserrat', sans-serif;
+					font-size: 16px;
+				}
 			}
 		}
 	}
@@ -110,7 +120,7 @@
 			bottom: -4px;
 			right: 0;
 			img {
-				width: 125px;
+				width: 90px;
 			}
 		}
 		h2 {
