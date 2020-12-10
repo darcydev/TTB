@@ -1,0 +1,96 @@
+main.engineers-page {
+	section.section-intro-text {
+		background: #fff;
+		padding: 40px;
+		width: 1080px;
+		max-width: 80%;
+		margin: 50px auto;
+	}
+
+	section.engineers-list-wrp {
+		display: flex;
+		flex-wrap: wrap;
+		width: 1200px;
+		max-width: 90%;
+		margin: 50px auto;
+		justify-content: center;
+
+		.engineer-list-item {
+			background: var(--main-grey);
+			flex: 0 0 45%;
+			margin: 20px;
+
+			@media (max-width: 750px) {
+				flex: 0 0 100%;
+			}
+
+			img.banner {
+				width: 100%;
+				height: auto;
+			}
+
+			.content {
+				display: flex;
+
+				.photo-wrp {
+					margin-right: 20px;
+					width: 150px;
+					height: auto;
+
+					img {
+						width: 100%;
+						height: auto;
+					}
+				}
+
+				.text-wrp {
+					position: relative;
+					flex: 1;
+
+					h3.name {
+						margin: 15px auto 5px auto;
+					}
+
+					h4.title {
+						margin: 5px auto 25px 0;
+					}
+
+					.short-line {
+						width: 30px;
+						border: 1px solid var(--main-gold);
+					}
+
+					.triangle-wrp {
+						width: 0;
+						height: 0;
+						border-style: solid;
+						border-width: 0 0 100px 100px;
+						border-color: transparent transparent var(--main-gold) transparent;
+						position: absolute;
+						bottom: 0;
+						right: 0;
+						cursor: pointer;
+
+						&:hover {
+							border-color: transparent transparent var(--main-brown)
+								transparent;
+						}
+					}
+
+					img.triangle-arrow {
+						position: absolute;
+						right: 15px;
+						bottom: 18px;
+						width: 35px;
+						height: auto;
+					}
+				}
+			}
+
+			img.bottom-banner {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+}
