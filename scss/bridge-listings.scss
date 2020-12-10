@@ -1,5 +1,7 @@
 main.bridge-listings-page {
 	.list-view-wrp {
+		overflow-x: auto;
+
 		table.tableizer-table {
 			margin: auto;
 			width: 1200px;

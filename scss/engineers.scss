@@ -32,57 +32,62 @@ main.engineers-page {
 			.content {
 				display: flex;
 
-				.photo-wrp {
-					margin-right: 20px;
-					width: 150px;
-					height: auto;
+				a {
+					display: flex;
+					width: 100%;
 
-					img {
-						width: 100%;
+					.photo-wrp {
+						margin-right: 20px;
+						width: 150px;
 						height: auto;
-					}
-				}
 
-				.text-wrp {
-					position: relative;
-					flex: 1;
-
-					h3.name {
-						margin: 15px auto 5px auto;
-					}
-
-					h4.title {
-						margin: 5px auto 25px 0;
-					}
-
-					.short-line {
-						width: 30px;
-						border: 1px solid var(--main-gold);
-					}
-
-					.triangle-wrp {
-						width: 0;
-						height: 0;
-						border-style: solid;
-						border-width: 0 0 100px 100px;
-						border-color: transparent transparent var(--main-gold) transparent;
-						position: absolute;
-						bottom: 0;
-						right: 0;
-						cursor: pointer;
-
-						&:hover {
-							border-color: transparent transparent var(--main-brown)
-								transparent;
+						img {
+							width: 100%;
+							height: auto;
 						}
 					}
 
-					img.triangle-arrow {
-						position: absolute;
-						right: 15px;
-						bottom: 18px;
-						width: 35px;
-						height: auto;
+					.text-wrp {
+						position: relative;
+						flex: 1;
+
+						h3.name {
+							margin: 15px auto 5px auto;
+						}
+
+						h4.title {
+							margin: 5px auto 25px 0;
+						}
+
+						.short-line {
+							width: 30px;
+							border: 1px solid var(--main-gold);
+						}
+
+						.triangle-wrp {
+							width: 0;
+							height: 0;
+							border-style: solid;
+							border-width: 0 0 100px 100px;
+							border-color: transparent transparent var(--main-gold) transparent;
+							position: absolute;
+							bottom: 0;
+							right: 0;
+							cursor: pointer;
+
+							&:hover {
+								border-color: transparent transparent var(--main-brown)
+									transparent;
+							}
+						}
+
+						img.triangle-arrow {
+							position: absolute;
+							right: 15px;
+							bottom: 18px;
+							width: 35px;
+							height: auto;
+						}
 					}
 				}
 			}
