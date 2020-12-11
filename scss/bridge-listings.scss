@@ -25,6 +25,7 @@ main.bridge-listings-page {
 						display: flex;
 						flex-direction: column;
 						align-items: flex-start;
+						position: relative;
 
 						@media (max-width: 1200px) {
 							flex: 0 0 100%;
@@ -51,6 +52,9 @@ main.bridge-listings-page {
 							font-size: 16px;
 							background: var(--main-gold);
 							color: #fff;
+							position: absolute;
+							top: 10px;
+							right: 10px;
 						}
 
 						p.bridge-location {
@@ -64,8 +68,9 @@ main.bridge-listings-page {
 
 							a {
 								padding: 10px 15px;
-								border: 2px solid var(--main-gold);
+								border: 1px solid var(--main-gold);
 								border-radius: 10px;
+								color: var(--main-gold);
 
 								&:hover {
 									border-color: #000;
