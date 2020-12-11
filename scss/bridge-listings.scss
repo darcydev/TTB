@@ -26,6 +26,10 @@ main.bridge-listings-page {
 						flex-direction: column;
 						align-items: flex-start;
 
+						@media (max-width: 1200px) {
+							flex: 0 0 100%;
+						}
+
 						&:hover {
 							background-position: bottom 15px right 10px;
 						}
