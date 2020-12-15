@@ -1,5 +1,7 @@
 main.bridge-listings-page {
 	section.list-view-wrp {
+		overflow-x: auto;
+
 		.list-grouping-wrp {
 			.section-content {
 				max-width: 90%;
