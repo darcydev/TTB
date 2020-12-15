@@ -129,7 +129,7 @@
 .bg-wrp {
 	height: 800px;
 }
-.hero--percy-allen {
+.hero--percy-allan {
 	.content {
 		background: url('/assets/images/hero--percy-allen.jpg');
 		position: relative;
@@ -138,10 +138,12 @@
 		background-size: cover;
 	}
 }
-.hero--allen-truss {
+.hero--allan-truss {
 	.content {
 		background: url('/assets/images/hero--allen-truss.jpg');
 		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
 	}
 }
 @media (max-width: 1400px) {
