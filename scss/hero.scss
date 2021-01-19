@@ -48,7 +48,7 @@
 		}
 		h2.name {
 			margin: 0;
-			font-size: 90px;
+			font-size: 50px;
 			display: flex;
 			align-items: center;
 			height: 100%;
@@ -73,17 +73,19 @@
 		justify-content: space-between;
 	}
 }
+
 .hero--monkerai-bridge {
 	h1 {
 		margin: 50px auto 0 auto;
 	}
-	height: 900px;
+
 	.content {
 		background: url('/assets/images/hero--monkerai.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 }
+
 .hero--home {
 	height: 900px;
 	.content {
@@ -153,9 +155,6 @@
 			font-size: 160px;
 		}
 		.top-bar {
-			h2.name {
-				font-size: 80px;
-			}
 			h3.date {
 				font-size: 45px;
 			}
@@ -175,25 +174,22 @@
 		}
 	}
 }
+
 @media (max-width: 1200px) {
 	.hero--engineer {
 		height: 600px;
-		.hero-txt-wrp {
-			justify-content: unset;
-		}
 	}
+
 	.hero-wrp {
 		h1 {
 			font-size: 120px;
 		}
 	}
 }
+
 @media (max-width: 1000px) {
 	.hero-wrp {
 		.top-bar {
-			h2.name {
-				font-size: 70px;
-			}
 			h3.date {
 				font-size: 30px;
 			}
@@ -232,20 +228,10 @@
 			.right {
 				flex-direction: column;
 			}
-			h2.name {
-				font-size: 50px;
-			}
 		}
 	}
 }
 @media (max-width: 500px) {
-	.hero-wrp {
-		.top-bar {
-			h2.name {
-				font-size: 35px;
-			}
-		}
-	}
 	.hero--engineer {
 		.hero-txt-wrp {
 			h1 {

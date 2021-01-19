@@ -17,9 +17,7 @@
 	font-weight: bold;
 	font-style: normal;
 }
-/* VARIABLES */
-/* GLOBAL */
-/* GENERAL CLASSES */
+
 :root {
 	--main-gold: #b1a329;
 	--main-brown: #b7652a;
@@ -92,4 +90,7 @@ li {
 	margin: auto;
 	justify-content: center;
 	flex-wrap: wrap;
+}
+.italic {
+	font-style: italic;
 }
